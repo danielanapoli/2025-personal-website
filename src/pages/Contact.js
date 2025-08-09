@@ -24,7 +24,7 @@ function Contact() {
             <Row>
               <Col className='text-center'>
                 <p>
-                  Want to talk more? For my fastest response, email me at <strong>hello@danielanapoli.com</strong>.
+                  Want to talk more? For my fastest response, email me at <strong>hello@danielanapoli.com</strong>
                   <br/> More ways to connect are down below.
                 </p>
               </Col>

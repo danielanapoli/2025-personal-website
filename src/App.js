@@ -6,12 +6,14 @@ import {
 
 import Home from './pages/Home.js';
 import Resume from './pages/Resume.js';
-import Academic from './pages/Academic.js';
-import Industry from './pages/Industry.js';
-import IndustryAutomation from './pages/Industry-Automation.js'
-import IndustryBenchmarking from './pages/Industry-Benchmarking.js'
-import IndustryRequirements from './pages/Industry-Requirements.js'
-import IndustryWorkflows from './pages/Industry-Workflows.js'
+import Academic from './pages/Academic/Academic.js';
+import AcademicPublications from "./pages/Academic/Publications.js";
+import AcademicTalks from './pages/Academic/Talks.js';
+import Industry from './pages/Industry/Industry.js';
+import IndustryAutomation from './pages/Industry/Automation.js'
+import IndustryBenchmarking from './pages/Industry/Benchmarking.js'
+import IndustryRequirements from './pages/Industry/Requirements.js'
+import IndustryWorkflows from './pages/Industry/Workflows.js'
 import Contact from './pages/Contact.js';
 import Projects from './pages/Projects.js';
 
@@ -26,6 +28,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/academic" element={<Academic />} />
+          <Route path="/academic/publications" element={<AcademicPublications />} />
+          <Route path="/academic/talks" element={<AcademicTalks />} />
           <Route path="/industry" element={<Industry />} />
           <Route path="/industry/automation" element={<IndustryAutomation />} />
           <Route path="/industry/benchmarking" element={<IndustryBenchmarking />} />

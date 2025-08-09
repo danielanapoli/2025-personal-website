@@ -1,5 +1,5 @@
-import '../styles/index.css';
-import '../styles/App.css';
+import '../../styles/index.css';
+import '../../styles/App.css';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -8,13 +8,12 @@ import Accordion from 'react-bootstrap/Accordion';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
-import NavBar from '../navbar';
-import Footer from '../footer';
-import AccordionToggle from '../helpers/accordionToggle';
+import NavBar from '../../navbar';
+import Footer from '../../footer';
 
-function IndustryRequirements() {
+function IndustryWorkflows() {
   return (
-    <div className="IndustryRequirements">
+    <div className="IndustryWorkflows">
       <a href="#content" class="skip-to-main-link">Skip to content</a>
       <NavBar></NavBar>
       <br/> 
@@ -22,22 +21,21 @@ function IndustryRequirements() {
           <Container fluid="md">
             <Row>
               <Col>
-                <Button variant='link' href="/industry">&lt; Back to all projects</Button>
+                <Button variant='link' href="/#/industry">&lt; Back to all projects</Button>
               </Col>
             </Row>
             <Row>
               <Col>
-              <h1>Requirements Analysis</h1>
+              <h1>Exploring Design Workflows</h1>
               </Col>
             </Row>
             <br/><br/>
             <Row>
               <Col className='text-center'>
-                <Image src={`${process.env.PUBLIC_URL}/project.png`} alt=""></Image>
+                <Image src={`${process.env.PUBLIC_URL}/team.png`} alt=""></Image>
               </Col>
             </Row>
             <br/><br/>
-              <AccordionToggle/>
             <br/>
             <Row>
               <Col>
@@ -46,7 +44,7 @@ function IndustryRequirements() {
                     <Accordion.Header><h3>Objective</h3></Accordion.Header>
                     <Accordion.Body>
                       <p id="accordion-content">
-                        The <strong>Canadian Institute for Health Information</strong> (CIHI) needed to...
+                        The Ottawa <strong>IBM</strong> Design Studio needed to...
                       </p>
                       <ol id="accordion-content">
                         <li>Example</li>
@@ -82,4 +80,4 @@ function IndustryRequirements() {
   );
 }
 
-export default IndustryRequirements;
+export default IndustryWorkflows;

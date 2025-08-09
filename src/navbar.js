@@ -27,6 +27,7 @@ function navBar(){
               <NavDropdown.Item href="/#/academic/talks">Talks</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/#/projects">Side Projects</Nav.Link>
+            <Nav.Link href="/#/resume">Resume</Nav.Link>
             <Nav.Link href="/#/contact">Contact</Nav.Link>
           </Nav>
         </Container>

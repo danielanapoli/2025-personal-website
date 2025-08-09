@@ -1,5 +1,5 @@
-import '../styles/index.css';
-import '../styles/App.css';
+import '../../styles/index.css';
+import '../../styles/App.css';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -7,18 +7,17 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-import NavBar from '../navbar';
-import Footer from '../footer';
+import NavBar from '../../navbar';
+import Footer from '../../footer';
+import { Link } from 'react-router-dom';
 
 function Industry() {
   return (
     <div className="Industry">
-      <a href="#content" class="skip-to-main-link">Skip to content</a>
+      <Link to="#content" class="skip-to-main-link">Skip to content</Link>
       <NavBar></NavBar>
       <br/> 
-      
       <section id="content">
-
           <Container fluid="md">
             <Row>
               <Col>
@@ -26,7 +25,7 @@ function Industry() {
                 <p>
                   Most recent high-impact usability research that I've done with UX teams. 
                   More details about my work experience are available on my <a href="/#/resume" rel="noopener noreferrer" title="A link to Daniela's online resume.">resume</a>. 
-                  You can also explore my <a href="/academic" rel="noopener noreferrer" title="The academic research portfolio page of Daniela's website.">academic projects</a> focused on <strong>accessibility</strong> and <strong>usable security</strong>. 
+                  You can also explore my <a href="/#/academic" rel="noopener noreferrer" title="The academic research portfolio page of Daniela's website.">academic projects</a>. 
                   Feel free to connect if you'd like to talk more about anything listed here!
                 </p>
               </Col>
@@ -34,7 +33,7 @@ function Industry() {
             <br/>            
             <Row fluid>
               <Col className='d-flex justify-content-center'>
-                <Card style={{ width: '60%' }} bg="light" className='border-0'>
+                <Card style={{ width: 'auto' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/pie-chart.png`} />
                   <Card.Body>
                     <Card.Title>Automatic Userbase Segmentation</Card.Title>
@@ -50,23 +49,23 @@ function Industry() {
                 </Card>
               </Col>
               <Col className='d-flex justify-content-center'>
-                <Card style={{ width: '60%' }} bg="light" className='border-0'>
+                <Card style={{ width: 'auto' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/statistics.png`} />
                   <Card.Body>
                     <Card.Title>Usability Benchmarking</Card.Title>
                     <Card.Text>
                       Assessed how iterative design updates influenced usability and SEO metrics over time.
                     </Card.Text>
-                    <Card.Subtitle>Quantitative methods</Card.Subtitle>
+                    <Card.Subtitle>Mixed methods</Card.Subtitle>
                     <Card.Text>
-                      collecting performance metrics, metadata analysis, descriptive statistics, t-tests, ANOVA, chi-square tests
+                      task-based usability testing, metadata analysis, descriptive statistics, t-tests, ANOVA, chi-square tests, thematic analysis
                     </Card.Text>
                   <Button variant="secondary" href="/#/industry/benchmarking">Read more</Button>
                   </Card.Body>
                 </Card>
               </Col>
               <Col className='d-flex justify-content-center'>
-                <Card style={{ width: '60%' }} bg="light" className='border-0'>
+                <Card style={{ width: 'auto' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/project.png`} />
                   <Card.Body>
                     <Card.Title>Requirements Analysis</Card.Title>
@@ -82,7 +81,7 @@ function Industry() {
                 </Card>
               </Col>
               <Col className='d-flex justify-content-center'>
-                <Card style={{ width: '60%' }} bg="light"  className='border-0'>
+                <Card style={{ width: 'auto' }} bg="light"  className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/team.png`} />
                   <Card.Body>
                     <Card.Title>Exploring Design Workflows</Card.Title>
@@ -93,7 +92,7 @@ function Industry() {
                     <Card.Text>
                       stakeholder interviews, journey mapping, affinity diagramming, service blueprinting
                     </Card.Text>
-                  <Button variant="secondary" href="/#/industry/workflows">Read more</Button>
+                  <Button variant="secondary" href="/#/industry/workflows" disabled>Read more</Button>
                   </Card.Body>
                 </Card>
               </Col>              

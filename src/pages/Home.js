@@ -4,19 +4,19 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Alert from 'react-bootstrap/Alert';
 
 import NavBar from '../navbar';
 import Footer from '../footer';
 
+import { Link } from 'react-router-dom';
+
 function Home() {
   return(
   <div className="Home">
-    <a href="#content" class="skip-to-main-link">Skip to content</a>
+    <Link to="#content" className='skip-to-main-link'>Skip to main</Link>
     <NavBar></NavBar>
     <br/>
-    <section id="content">
-
+  <section id="content">
         <Container fluid="md">
           <Row>
             <Col>
@@ -32,7 +32,7 @@ function Home() {
               </p>
               <p>
                 I've uncovered impactful insights for companies in the tech, healthcare, and aviation sectors. 
-                I have a passion for <strong>inclusive design</strong>, with specialties in accessibility, usable security, and privacy.
+                I have a passion for <strong>inclusive design</strong> with specialties in accessibility, usable security, and privacy.
               </p>
               <p>
                 When I'm not geeking out about data, you'll find me working on fun coding projects, hiking in the woods, gardening, reading sci-fi novels, or playing MTG.
