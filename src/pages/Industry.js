@@ -35,38 +35,6 @@ function Industry() {
             <Row>
               <Col>
                 <Card style={{ width: 'auto' }} className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/project.png`} />
-                  <Card.Body>
-                    <Card.Title>Requirements Analysis</Card.Title>
-                    <Card.Text>
-                      Explored user needs and pain points, producing actionable findings that guided the direction of future design work.  
-                    </Card.Text>
-                    <Card.Subtitle>Qualitative methods</Card.Subtitle>
-                    <Card.Text>
-                      user interviews, stakeholder interviews, journey mapping, cross-department focus groups, design studio workshops
-                    </Card.Text>
-                  <Button variant="secondary" href="#">Read more</Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col>
-                <Card style={{ width: 'auto' }} className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/statistics.png`} />
-                  <Card.Body>
-                    <Card.Title>Usability Benchmarking</Card.Title>
-                    <Card.Text>
-                      Assessed how iterative design updates influenced usability indicators and SEO outcomes over time.
-                    </Card.Text>
-                    <Card.Subtitle>Quantitative methods</Card.Subtitle>
-                    <Card.Text>
-                      collecting performance metrics, metadata analysis, descriptive statistics, t-tests, ANOVA, chi-square tests
-                    </Card.Text>
-                  <Button variant="secondary">Read more</Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col>
-                <Card style={{ width: 'auto' }} className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/pie-chart.png`} />
                   <Card.Body>
                     <Card.Title>Automatic Userbase Segmentation</Card.Title>
@@ -77,10 +45,45 @@ function Industry() {
                     <Card.Text>
                       Python programming, data scraping, data standardization, natural language processing
                     </Card.Text>
-                  <Button variant="secondary">Read more</Button>
+                  <Button variant="secondary" href="/industry-automation">Read more</Button>
                   </Card.Body>
                 </Card>
               </Col>
+
+              <Col>
+                <Card style={{ width: 'auto' }} className='border-0'>
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/statistics.png`} />
+                  <Card.Body>
+                    <Card.Title>Usability Benchmarking</Card.Title>
+                    <Card.Text>
+                      Assessed how iterative design updates influenced usability and SEO metrics over time.
+                    </Card.Text>
+                    <Card.Subtitle>Quantitative methods</Card.Subtitle>
+                    <Card.Text>
+                      collecting performance metrics, metadata analysis, descriptive statistics, t-tests, ANOVA, chi-square tests
+                    </Card.Text>
+                  <Button variant="secondary" href="/industry-benchmarking">Read more</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+              <Col>
+                <Card style={{ width: 'auto' }} className='border-0'>
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/project.png`} />
+                  <Card.Body>
+                    <Card.Title>Requirements Analysis</Card.Title>
+                    <Card.Text>
+                      Explored user needs and pain points and formulated actionable recommendations to guide the direction of future design work.  
+                    </Card.Text>
+                    <Card.Subtitle>Qualitative methods</Card.Subtitle>
+                    <Card.Text>
+                      user interviews, stakeholder interviews, journey mapping, cross-department focus groups, design studio workshops
+                    </Card.Text>
+                  <Button variant="secondary" href="/industry-requirements">Read more</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              
               <Col>
                 <Card style={{ width: 'auto' }} className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/team.png`} />
@@ -93,7 +96,7 @@ function Industry() {
                     <Card.Text>
                       stakeholder interviews, journey mapping, affinity diagramming, service blueprinting
                     </Card.Text>
-                  <Button variant="secondary">Read more</Button>
+                  <Button variant="secondary" href="/industry-workflows">Read more</Button>
                   </Card.Body>
                 </Card>
               </Col>

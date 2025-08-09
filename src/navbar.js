@@ -27,7 +27,7 @@ function navBar(){
                 <Nav.Link as={Link} to="/academic">Academic</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to="/projects">Skill-building</Nav.Link>
+                <Nav.Link as={Link} to="/projects">Side Projects</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>

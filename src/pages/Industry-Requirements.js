@@ -10,9 +10,9 @@ import Image from 'react-bootstrap/Image';
 import NavBar from '../navbar';
 import Footer from '../footer';
 
-function IndustryBenchmarking() {
+function IndustryRequirements() {
   return (
-    <div className="IndustryBenchmarking">
+    <div className="IndustryRequirements">
       <a href="#content" class="skip-to-main-link">Skip to content</a>
       <NavBar></NavBar>
       <br/> 
@@ -25,13 +25,13 @@ function IndustryBenchmarking() {
             </Row>
             <Row>
               <Col>
-              <h1>Usability Benchmarking</h1>
+              <h1>Requirements Analysis</h1>
               </Col>
             </Row>
             <br/><br/>
             <Row>
               <Col className='text-center'>
-                <Image src={`${process.env.PUBLIC_URL}/statistics.png`} alt=""></Image>
+                <Image src={`${process.env.PUBLIC_URL}/project.png`} alt=""></Image>
               </Col>
             </Row>
             <br/><br/>
@@ -72,4 +72,4 @@ function IndustryBenchmarking() {
   );
 }
 
-export default IndustryBenchmarking;
+export default IndustryRequirements;
