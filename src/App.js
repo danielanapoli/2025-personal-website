@@ -1,8 +1,7 @@
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
-    Route,
-    Link,
+    Route
 } from "react-router-dom";
 
 import Home from './pages/Home.js';
@@ -16,7 +15,6 @@ import IndustryWorkflows from './pages/Industry-Workflows.js'
 import Contact from './pages/Contact.js';
 import Projects from './pages/Projects.js';
 
-
 import './styles/App.css';
 
 function App() {
@@ -29,16 +27,16 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/academic" element={<Academic />} />
           <Route path="/industry" element={<Industry />} />
-          <Route path="/industry-automation" element={<IndustryAutomation />} />
-          <Route path="/industry-benchmarking" element={<IndustryBenchmarking />} />
-          <Route path="/industry-requirements" element={<IndustryRequirements />} />
-          <Route path="/industry-workflows" element={<IndustryWorkflows />} />
+          <Route path="/industry/automation" element={<IndustryAutomation />} />
+          <Route path="/industry/benchmarking" element={<IndustryBenchmarking />} />
+          <Route path="/industry/requirements" element={<IndustryRequirements />} />
+          <Route path="/industry/workflows" element={<IndustryWorkflows />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           
       </Routes>
     </Router>
-  );
+  );  
 }
 
 export default App;

@@ -1,11 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
-import {
-    BrowserRouter as Router,
-    Link,
-} from "react-router-dom";
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import './styles/App.css';
 
@@ -14,25 +10,25 @@ function navBar(){
         <Container fluid>
             <Navbar bg="light" data-bs-theme="light">
           <Container>
-          <Navbar.Brand as={Link} to="/">Daniela Napoli</Navbar.Brand>
+          <Navbar.Brand href="/">Daniela Napoli</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Nav className="justify-content-center" activeKey="/home">
-              <Nav.Item>
-                <Nav.Link as={Link} to="/">Home</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link as={Link} to="/industry">Industry</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link as={Link} to="/academic">Academic</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link as={Link} to="/projects">Side Projects</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-              </Nav.Item>
-            </Nav>
+          <Nav className="justify-content-center" activeKey="/home">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/#/industry">Industry</Nav.Link>
+            <NavDropdown title="" id="industry-dropdown">
+              <NavDropdown.Item href="/#/industry/automation">Automation</NavDropdown.Item>
+              <NavDropdown.Item href="/#/industry/benchmarking">Benchmarking</NavDropdown.Item>
+              <NavDropdown.Item href="/#/industry/requirements">Requirements</NavDropdown.Item>
+              <NavDropdown.Item href="/#/industry/workflows">Workflows</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="/#/academic">Academic</Nav.Link>
+            <NavDropdown title="" id="academic-dropdown">
+              <NavDropdown.Item href="/#/academic/publications">Publications</NavDropdown.Item>
+              <NavDropdown.Item href="/#/academic/talks">Talks</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="/#/projects">Side Projects</Nav.Link>
+            <Nav.Link href="/#/contact">Contact</Nav.Link>
+          </Nav>
         </Container>
         <br/>
         </Navbar>
@@ -41,4 +37,3 @@ function navBar(){
 }
 
 export default navBar;
-

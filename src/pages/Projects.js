@@ -36,6 +36,7 @@ function Contact() {
                 <br/><br/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat dolor purus, vulputate rutrum turpis porttitor vitae. Pellentesque a ex mollis, rutrum nunc sed, viverra lorem. Aenean porttitor ex ut nibh pulvinar, nec suscipit enim efficitur. Aliquam id posuere risus. Aliquam vel convallis nisi. In venenatis aliquam nunc. Ut id pulvinar leo, sed placerat turpis. Etiam vulputate magna ac felis aliquam, vitae fermentum turpis aliquet.</p>
                 <p>Praesent porttitor nulla et erat aliquam, sed vestibulum erat suscipit. Donec erat neque, mollis non sollicitudin scelerisque, rutrum at nunc. Curabitur quis enim ex. Nulla consectetur mauris ac sem elementum, et cursus ante elementum. Vestibulum vulputate porta iaculis. Nulla pharetra dui odio, in dignissim urna bibendum eu. Vestibulum sed elit nulla.</p>
+                <h5>Future Work</h5>
                 <p>Nunc egestas euismod tortor, at sodales purus vulputate eget. Integer porttitor sollicitudin posuere. Mauris ullamcorper augue nec commodo dignissim. In et imperdiet felis, eu fermentum massa. Duis sodales lacinia risus quis faucibus. Nunc consequat urna vitae sollicitudin convallis. Quisque eu eleifend nunc. Ut eget viverra arcu. Nam placerat finibus tellus, et interdum sem laoreet non.</p>
             </Col>
             <Col className='text-center'>              
@@ -58,6 +59,7 @@ function Contact() {
                 <br/><br/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat dolor purus, vulputate rutrum turpis porttitor vitae. Pellentesque a ex mollis, rutrum nunc sed, viverra lorem. Aenean porttitor ex ut nibh pulvinar, nec suscipit enim efficitur. Aliquam id posuere risus. Aliquam vel convallis nisi. In venenatis aliquam nunc. Ut id pulvinar leo, sed placerat turpis. Etiam vulputate magna ac felis aliquam, vitae fermentum turpis aliquet.</p>
                 <p>Praesent porttitor nulla et erat aliquam, sed vestibulum erat suscipit. Donec erat neque, mollis non sollicitudin scelerisque, rutrum at nunc. Curabitur quis enim ex. Nulla consectetur mauris ac sem elementum, et cursus ante elementum. Vestibulum vulputate porta iaculis. Nulla pharetra dui odio, in dignissim urna bibendum eu. Vestibulum sed elit nulla.</p>
+                <h5>Future Work</h5>
                 <p>Nunc egestas euismod tortor, at sodales purus vulputate eget. Integer porttitor sollicitudin posuere. Mauris ullamcorper augue nec commodo dignissim. In et imperdiet felis, eu fermentum massa. Duis sodales lacinia risus quis faucibus. Nunc consequat urna vitae sollicitudin convallis. Quisque eu eleifend nunc. Ut eget viverra arcu. Nam placerat finibus tellus, et interdum sem laoreet non.</p>
             </Col>
             </Row>
@@ -70,6 +72,7 @@ function Contact() {
                 <br/><br/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat dolor purus, vulputate rutrum turpis porttitor vitae. Pellentesque a ex mollis, rutrum nunc sed, viverra lorem. Aenean porttitor ex ut nibh pulvinar, nec suscipit enim efficitur. Aliquam id posuere risus. Aliquam vel convallis nisi. In venenatis aliquam nunc. Ut id pulvinar leo, sed placerat turpis. Etiam vulputate magna ac felis aliquam, vitae fermentum turpis aliquet.</p>
                 <p>Praesent porttitor nulla et erat aliquam, sed vestibulum erat suscipit. Donec erat neque, mollis non sollicitudin scelerisque, rutrum at nunc. Curabitur quis enim ex. Nulla consectetur mauris ac sem elementum, et cursus ante elementum. Vestibulum vulputate porta iaculis. Nulla pharetra dui odio, in dignissim urna bibendum eu. Vestibulum sed elit nulla.</p>
+                <h5>Future Work</h5>
                 <p>Nunc egestas euismod tortor, at sodales purus vulputate eget. Integer porttitor sollicitudin posuere. Mauris ullamcorper augue nec commodo dignissim. In et imperdiet felis, eu fermentum massa. Duis sodales lacinia risus quis faucibus. Nunc consequat urna vitae sollicitudin convallis. Quisque eu eleifend nunc. Ut eget viverra arcu. Nam placerat finibus tellus, et interdum sem laoreet non.</p>
             </Col>
             <Col className='text-center'>              
@@ -91,6 +94,7 @@ function Contact() {
                 <br/><br/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat dolor purus, vulputate rutrum turpis porttitor vitae. Pellentesque a ex mollis, rutrum nunc sed, viverra lorem. Aenean porttitor ex ut nibh pulvinar, nec suscipit enim efficitur. Aliquam id posuere risus. Aliquam vel convallis nisi. In venenatis aliquam nunc. Ut id pulvinar leo, sed placerat turpis. Etiam vulputate magna ac felis aliquam, vitae fermentum turpis aliquet.</p>
                 <p>Praesent porttitor nulla et erat aliquam, sed vestibulum erat suscipit. Donec erat neque, mollis non sollicitudin scelerisque, rutrum at nunc. Curabitur quis enim ex. Nulla consectetur mauris ac sem elementum, et cursus ante elementum. Vestibulum vulputate porta iaculis. Nulla pharetra dui odio, in dignissim urna bibendum eu. Vestibulum sed elit nulla.</p>
+                <h5>Future Work</h5>
                 <p>Nunc egestas euismod tortor, at sodales purus vulputate eget. Integer porttitor sollicitudin posuere. Mauris ullamcorper augue nec commodo dignissim. In et imperdiet felis, eu fermentum massa. Duis sodales lacinia risus quis faucibus. Nunc consequat urna vitae sollicitudin convallis. Quisque eu eleifend nunc. Ut eget viverra arcu. Nam placerat finibus tellus, et interdum sem laoreet non.</p>
             </Col>
             </Row>

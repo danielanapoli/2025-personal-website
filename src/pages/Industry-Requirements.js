@@ -6,9 +6,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
 import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
 
 import NavBar from '../navbar';
 import Footer from '../footer';
+import AccordionToggle from '../helpers/accordionToggle';
 
 function IndustryRequirements() {
   return (
@@ -20,7 +22,7 @@ function IndustryRequirements() {
           <Container fluid="md">
             <Row>
               <Col>
-                <a href="/industry">&lt; Back</a>
+                <Button variant='link' href="/industry">&lt; Back to all projects</Button>
               </Col>
             </Row>
             <Row>
@@ -35,13 +37,21 @@ function IndustryRequirements() {
               </Col>
             </Row>
             <br/><br/>
+              <AccordionToggle/>
+            <br/>
             <Row>
               <Col>
-                <Accordion defaultActiveKey={['0']} alwaysOpen>
+                <Accordion defaultActiveKey={['0','3']} alwaysOpen>
                   <Accordion.Item eventKey="0">
                     <Accordion.Header><h3>Objective</h3></Accordion.Header>
                     <Accordion.Body>
-                      Sample text
+                      <p id="accordion-content">
+                        The <strong>Canadian Institute for Health Information</strong> (CIHI) needed to...
+                      </p>
+                      <ol id="accordion-content">
+                        <li>Example</li>
+                        <li>Example</li>
+                      </ol>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">

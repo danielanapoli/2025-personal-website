@@ -9,7 +9,6 @@ import Button from 'react-bootstrap/Button';
 
 import NavBar from '../navbar';
 import Footer from '../footer';
-import { Badge } from 'react-bootstrap';
 
 function Industry() {
   return (
@@ -25,16 +24,17 @@ function Industry() {
               <Col>
                 <h1>Industry Portfolio</h1>
                 <p>
-                  Some key projects that I've completed while working on UX teams. You can also explore my <a href="/academic" rel="noopener noreferrer" title="The academic research portfolio page of Daniela's website.">academic projects</a>. 
+                  Most recent high-impact usability research that I've done with UX teams. 
+                  More details about my work experience are available on my <a href="/#/resume" rel="noopener noreferrer" title="A link to Daniela's online resume.">resume</a>. 
+                  You can also explore my <a href="/academic" rel="noopener noreferrer" title="The academic research portfolio page of Daniela's website.">academic projects</a> focused on <strong>accessibility</strong> and <strong>usable security</strong>. 
                   Feel free to connect if you'd like to talk more about anything listed here!
                 </p>
               </Col>
             </Row>
-            <br/>
-            
-            <Row>
-              <Col>
-                <Card style={{ width: 'auto' }} className='border-0'>
+            <br/>            
+            <Row fluid>
+              <Col className='d-flex justify-content-center'>
+                <Card style={{ width: '60%' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/pie-chart.png`} />
                   <Card.Body>
                     <Card.Title>Automatic Userbase Segmentation</Card.Title>
@@ -45,13 +45,12 @@ function Industry() {
                     <Card.Text>
                       Python programming, data scraping, data standardization, natural language processing
                     </Card.Text>
-                  <Button variant="secondary" href="/industry-automation">Read more</Button>
+                  <Button variant="secondary" href="/#/industry/automation">Read more</Button>
                   </Card.Body>
                 </Card>
               </Col>
-
-              <Col>
-                <Card style={{ width: 'auto' }} className='border-0'>
+              <Col className='d-flex justify-content-center'>
+                <Card style={{ width: '60%' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/statistics.png`} />
                   <Card.Body>
                     <Card.Title>Usability Benchmarking</Card.Title>
@@ -62,44 +61,42 @@ function Industry() {
                     <Card.Text>
                       collecting performance metrics, metadata analysis, descriptive statistics, t-tests, ANOVA, chi-square tests
                     </Card.Text>
-                  <Button variant="secondary" href="/industry-benchmarking">Read more</Button>
+                  <Button variant="secondary" href="/#/industry/benchmarking">Read more</Button>
                   </Card.Body>
                 </Card>
               </Col>
-
-              <Col>
-                <Card style={{ width: 'auto' }} className='border-0'>
+              <Col className='d-flex justify-content-center'>
+                <Card style={{ width: '60%' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/project.png`} />
                   <Card.Body>
                     <Card.Title>Requirements Analysis</Card.Title>
                     <Card.Text>
-                      Explored user needs and pain points and formulated actionable recommendations to guide the direction of future design work.  
+                      Explored user needs and pain points. Formulated actionable recommendations to guide the direction of future design work.  
                     </Card.Text>
                     <Card.Subtitle>Qualitative methods</Card.Subtitle>
                     <Card.Text>
                       user interviews, stakeholder interviews, journey mapping, cross-department focus groups, design studio workshops
                     </Card.Text>
-                  <Button variant="secondary" href="/industry-requirements">Read more</Button>
+                  <Button variant="secondary" href="/#/industry/requirements">Read more</Button>
                   </Card.Body>
                 </Card>
               </Col>
-              
-              <Col>
-                <Card style={{ width: 'auto' }} className='border-0'>
+              <Col className='d-flex justify-content-center'>
+                <Card style={{ width: '60%' }} bg="light"  className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/team.png`} />
                   <Card.Body>
                     <Card.Title>Exploring Design Workflows</Card.Title>
                     <Card.Text>
-                      Investigated design, development, and product manager workflows to uncover challenges and identify opportunities for cross-functional improvement.
+                      Investigated design, development, and product manager workflows to uncover challenges. Formulated recommendations for cross-functional improvement.
                     </Card.Text>
                     <Card.Subtitle>Qualitative methods</Card.Subtitle>
                     <Card.Text>
                       stakeholder interviews, journey mapping, affinity diagramming, service blueprinting
                     </Card.Text>
-                  <Button variant="secondary" href="/industry-workflows">Read more</Button>
+                  <Button variant="secondary" href="/#/industry/workflows">Read more</Button>
                   </Card.Body>
                 </Card>
-              </Col>
+              </Col>              
             </Row>
             <br/>
           </Container>
