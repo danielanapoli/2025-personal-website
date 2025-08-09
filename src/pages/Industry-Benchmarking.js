@@ -8,31 +8,31 @@ import Col from 'react-bootstrap/Col';
 import NavBar from '../navbar';
 import Footer from '../footer';
 
-function Portfolio() {
+function Contact() {
   return (
-    <div className="Portfolio">
+    <div className="Contact">
       <a href="#content" class="skip-to-main-link">Skip to content</a>
       <NavBar></NavBar>
       <br/> 
       <section id="content">
           <Container fluid="md">
             <Row>
-            <h1>Research Samples</h1>
+              <Col>
+              <h1>Usability Benchmarking</h1>
+              </Col>
             </Row>
-            <br/>
             <Row>
               <Col className='text-center'>
                 <p>
-                  This page is in works. Check back soon for more updates!
-                  <br/>
+                    In progress...
                 </p>
               </Col>
             </Row>
           </Container>
-      <Footer/>
       </section>
+      <Footer/>
     </div>
   );
 }
 
-export default Portfolio;
+export default Contact;

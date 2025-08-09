@@ -17,13 +17,16 @@ function Contact() {
       <section id="content">
           <Container fluid="md">
             <Row>
-            <h1>Want to chat?</h1>
+              <Col>
+              <h1>Contact</h1>
+              </Col>
             </Row>
-            <br/>
             <Row>
               <Col className='text-center'>
-                <p>If you have any questions, or want to talk more, email me at<br/>
-                <strong><a href="mailto:hello@danielanapoli.com" rel="noopener noreferrer" title="Daniela's email address. Will open the mail app.">hello@danielanapoli.com</a></strong></p>
+                <p>
+                  Want to talk more? For my fastest response, email me at <strong>hello@danielanapoli.com</strong>.
+                  <br/> More ways to connect are down below.
+                </p>
               </Col>
             </Row>
           </Container>

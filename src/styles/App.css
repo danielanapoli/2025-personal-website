@@ -64,3 +64,13 @@
   bottom: 0;
   width: 100%;
 }
+
+.smaller-div {
+  width: 100%;
+  padding-top: 2%;
+}
+
+.grey-divider {
+  padding-top: 0.05%;
+  background-color: #dee2e6;
+}

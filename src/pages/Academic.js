@@ -1,0 +1,207 @@
+import '../styles/App.css';
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Badge from 'react-bootstrap/Badge';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
+import YoutubeEmbed from "../YouTubeEmbed";
+import SlidesEmbed from '../SlidesEmbed';
+
+import NavBar from '../navbar';
+import Footer from '../footer';
+
+function Academic() {
+  return (
+  <div className="Academic">
+      <a href="#content" class="skip-to-main-link">Skip to content</a>
+      <NavBar></NavBar>
+      <br/>
+      <section id="content">
+      <Container fluid='md'>
+        <Row>
+            <Col>
+            <h1>Academic Portfolio</h1>
+            <p>
+              Some of my favourite academic works focused on <strong>accessibility</strong> and <strong>usable security</strong>.
+              You can learn more about my other academic publications by visiting <a href="https://scholar.google.com/citations?user=qdH8ZZcAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Daniela's profile on Google Scholar. Opens in a new tab.">Google Scholar</a>.
+              You can also explore my <a href="/industry" rel="noopener noreferrer" title="The industry research portfolio page of Daniela's website.">projects from working in the industry</a>. 
+              Feel free to connect if you'd like to talk more about anything listed here!
+            </p>
+            </Col>
+        </Row>
+        <br/>
+      <section id="publications">
+          <Row>
+            <h2>Publications</h2>
+            <Col md={4}>
+              <div className='smaller-div'>
+                <SlidesEmbed embedId={"https://www.slideshare.net/slideshow/embed_code/key/8e3R7RXhawyezP?hostedIn=slideshare&page=upload"}/>
+              </div>
+            </Col>
+            <Col>
+              <a href="https://dl.acm.org/doi/abs/10.1145/3170427.3180292" target="_blank" rel="noopener noreferrer" title="A link to the ACM Digital Library. Opens in a new tab."><h3>Developing Accessible and Usable Security (ACCUS) Heuristics</h3></a>
+              <Badge bg="secondary">Extended Abstract</Badge> <Badge bg="secondary">Presentation</Badge>
+              <br/>
+              <br/>
+              <p>
+                  When used together, usable security and accessibility principles can help shape web experiences that are safer for screen reader users with visual disabilities.
+                  This short paper summarizes the development of ACCUS heuristics and high-level findings from a heuristic evaluation of 10 websites.          
+                <br/>
+                <br/>
+                <strong>Downloads:</strong> 362<br/>
+                <strong>Citations:</strong> 24<br/>
+              </p>
+            </Col>
+          </Row>
+          <br/>
+          <br/>
+          <Row>
+            <Col md={4}>
+              <div className='smaller-div'>
+                <SlidesEmbed embedId={"https://www.slideshare.net/slideshow/embed_code/key/hv7R1brxl5lmD?startSlide=1"}/>
+              </div>
+            </Col>
+            <Col>
+              <a href="https://link.springer.com/chapter/10.1007/978-3-031-92840-6_5" target="_blank" rel="noopener noreferrer" title="A link to the Springer research database. Opens in a new tab."><h3>Exploring User Perspectives on Data Collection, Data Sharing Preferences, and Privacy Concerns with Remote Healthcare Technology</h3></a>
+              <Badge bg="secondary">Full-paper</Badge> <Badge bg="secondary">Presentation</Badge>
+              <br/>
+              <br/>
+             <p>
+                  Remote healthcare technology includes devices that can help people take care of their health and well-being outside of traditional clinical settings. 
+                  This paper dives into a Canada-wide survey on how users' perspectives on remote healthcare technology can vary depending on age and health context.              
+                  <br/>
+                  <br/>
+                <strong>Downloads:</strong> 177<br/>
+                <strong>Citations:</strong> 1<br/>
+              </p>
+            </Col>
+          </Row>
+          <br/>
+          <br/>
+          <Row>
+            <Col md={4}>
+              <div className='smaller-div'>
+                <SlidesEmbed embedId={"https://www.slideshare.net/slideshow/embed_code/key/epGU6OoTUnkQ9O?startSlide=1"}/>
+              </div>
+            </Col>
+            <Col>
+              <a href="https://link.springer.com/chapter/10.1007/978-3-031-94159-7_24" target="_blank" rel="noopener noreferrer" title="A link to the Springer research database. Opens in a new tab."><h3>Helpful but Terrifying: Older Adults’ Perspectives of AI in Remote Healthcare Technology</h3></a>
+              <Badge bg="secondary">Poster</Badge> <Badge bg="secondary">Presentation</Badge>
+              <br/><br/>
+              <p>
+                  While some older adults are interested in adopting remote healthcare technology with AI features, they also feel deeply concerned about their safety and privacy.
+                  This poster focuses on AI-related findings within a larger interview study that will be published soon.              
+                  <br/> <br/>
+                <strong>Downloads:</strong> 218<br/>
+                <strong>Citations:</strong> 0<br/>
+              </p>
+            </Col>
+          </Row>
+          <br/>
+          <br/>
+          <Row>
+            <Col md={4}>
+              <YoutubeEmbed embedId="wPes4YF4bxY" />
+            </Col>
+            <Col>
+            <a href="https://www.usenix.org/conference/soups2021/presentation/napoli" target="_blank" rel="noopener noreferrer" title="A link to the USENIX website. Opens in a new tab."><h3>"I'm Literally Just Hoping This Will Work:'' Obstacles Blocking the Online Security and Privacy of Users with Visual Disabilities</h3></a>
+              <Badge bg="secondary">Full-paper</Badge> <Badge bg="secondary">Presentation</Badge>
+              <br/><br/>
+              <p>
+                Even when using screen-reading technology, people with visual disabilities are not always given critical privacy information while browsing online. 
+                This paper details ethnographic findings and design recommendations on improving security and privacy warnings for users with visual disabilities. 
+                <br/><br/>
+                <strong>Downloads:</strong> N/A<br/>
+                <strong>Citations:</strong> 29<br/>
+              </p>
+            </Col>
+          </Row>
+          <br/>
+          <br/>
+          <Row>
+            <Col md={4}>
+              <YoutubeEmbed embedId={"c_swgoqTOw8"}/>
+            </Col>
+            <Col>
+              <a href="https://www.usenix.org/conference/soups2020/presentation/napoli" target="_blank" rel="noopener noreferrer" title="A link to the USENIX website. Opens in a new tab."><h3>Something Doesn’t Feel Right: Using Thermal Warnings to Improve User Security Awareness</h3></a>
+              <Badge bg="secondary">Extended Abstract</Badge> <Badge bg="secondary">Presentation</Badge>
+              <p>
+                A lot of security warnings are pop-ups or colour-coded icons. But, what if you could <em>feel</em> the security of a website? 
+                This poster presents NoViz-Thermal, an Arduino-based prototype for communicating TLS certificates through heat warnings. 
+                <br/><br />
+                <strong>Downloads:</strong> N/A<br/>
+                <strong>Citations:</strong> 4<br/>
+              </p>
+            </Col>
+          </Row>
+      </section>
+
+          <br/>
+          <br/>
+          <Row>
+            <h2>Talks</h2>
+            <Col md={4}>
+            <div className='smaller-div'>
+              <SlidesEmbed embedId={"https://www.slideshare.net/slideshow/embed_code/key/zsZeg71024rJW?hostedIn=slideshare&page=upload"} />
+            </div>
+            </Col>
+            <Col>
+              <h3>Remote Healthcare Technology Use Cases and the Contextual Integrity of Older Adult User Privacy</h3>
+              <Badge bg="secondary">Presentation</Badge>
+              <br/><br/>
+              <p>
+                Older adults' privacy perspectives can be context-dependent, and their willingness to make privacy tradeoffs can vary depending on healthcare contexts. 
+                This talk took place at the <a href="https://privaci.info/symposium/2023/cfp.html" target="_blank" rel="noopener noreferrer" title="A link to the CI Symposium's website. Opens in a new tab.">5th Annual Symposium on Applications of Contextual Integrity</a>. 
+              </p>
+            </Col>
+          </Row>
+          <br/>
+          <br/>
+          <Row>
+            <Col md={4}>
+              <YoutubeEmbed embedId={"hxwTL7ljHHU"}/>
+            </Col>
+            <Col>
+              <h3>The U in UX can be For Everyone: Accessible and Usable Privacy</h3>
+              <Badge bg="secondary">Presentation</Badge> <Badge bg="secondary">Workshop</Badge>
+              <br/><br/>
+              <p>
+                Privacy-conscious designs can integrate accessibility-related principles for truly inclusive and safe solutions. 
+                This talk was part of a larger online workshop I ran for the <a href="https://uwaterloo.ca/stratford-school-of-interaction-design-and-business/uxperience-think-privacy" target="_blank" rel="noopener noreferrer" title="A link to the University of Waterloo website. Opens in a new tab.">uXperience | Think Privacy Design Jam</a>.
+              </p>
+            </Col>
+          </Row>
+          <br/>
+          <br/>
+          <Row>
+            <Col md={4}>
+            <div className='smaller-div'>
+              <SlidesEmbed embedId={"https://www.slideshare.net/slideshow/embed_code/key/GoBnk9VwftLcdo?hostedIn=slideshare&page=upload"} />
+            </div>
+            </Col>
+            <Col>       
+              <h3>Design Tips to Help Non-Visual Visitors Stay Secure Online</h3>
+              <Badge bg="secondary">Presentation</Badge>
+              <br/><br/>
+              <p>
+                With some extra steps, website security features can be made even more inclusive.
+                This invited talk took place at the <a href="https://guides.uoguelph.ca/event/accessibility-conference-designing-diverse-abilities" target="_blank" rel="noopener noreferrer" title="A link to the University of Guelph website. Opens in a new tab.">10th Annual Accessibility Conference: Designing for Diverse Abilities</a> for accessibility practitioners. 
+              </p> 
+            </Col>
+          </Row>
+          <br/>
+          <br/>
+
+        <p className='smaller-text'>*Note: Metrics are estimates. Citations are tracked by Google Scholar, and downloads are tracked by the corresponding publisher's digital library if available.</p>
+
+      </Container>
+      <Footer/>
+      </section>
+    </div>
+  );
+}
+
+export default Academic;

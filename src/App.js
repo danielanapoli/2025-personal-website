@@ -7,9 +7,10 @@ import {
 
 import Home from './pages/Home.js';
 import Resume from './pages/Resume.js';
-import PubsTalks from './pages/PubsTalks.js';
-import Portfolio from './pages/Portfolio.js';
+import Academic from './pages/Academic.js';
+import Industry from './pages/Industry.js';
 import Contact from './pages/Contact.js';
+import Projects from './pages/Projects.js';
 
 import './styles/App.css';
 
@@ -21,9 +22,10 @@ function App() {
           <Route path="/2025-personal-website" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/publications-talks" element={<PubsTalks />} />
-          <Route path="/research-portfolio" element={<Portfolio />} />
+          <Route path="/academic" element={<Academic />} />
+          <Route path="/industry" element={<Industry />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>
   );

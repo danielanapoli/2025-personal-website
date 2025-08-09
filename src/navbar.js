@@ -21,13 +21,13 @@ function navBar(){
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to="/research-portfolio" disabled>Portfolio</Nav.Link>
+                <Nav.Link as={Link} to="/industry">Industry</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to="/publications-talks">Publications</Nav.Link>
+                <Nav.Link as={Link} to="/academic">Academic</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to="/resume" disabled>Resume</Nav.Link>
+                <Nav.Link as={Link} to="/projects">Skill-building</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>

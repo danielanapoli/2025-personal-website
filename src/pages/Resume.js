@@ -16,28 +16,7 @@ function Resume() {
       <NavBar></NavBar>
       <br/>
       <section id="content">
-        <Container fluid="md">
-          <Row>
-            <h1>Resume Details</h1>
-          </Row>
-          <br/>
-          <Row>
-            <Col className='text-center'>
-              <p>
-                See samples of my industry-related projects on the <a href="/research-portfolio" target="_blank" rel="noopener noreferrer" title="The research portfolio page of Daniela's website. Opens in a new tab.">research portfolio</a> page.
-                <br/>Check out my academic work on the <a href="/research-portfolio" target="_blank" rel="noopener noreferrer" title="The publications and talks page of Daniela's website. Opens in a new tab.">publications and talks</a> page.<br/>
-              </p>  
-            </Col>
-            <Col md={3} className='text-center'>
-              <Alert variant='light'>
-                <Alert.Heading>Want to print?</Alert.Heading>
-                <p>
-                  A more printer-friendly version will be available soon.
-                </p> 
-              </Alert>
-            </Col>
-          </Row>
-          
+        <Container fluid="md">        
           <br/>
           <Row>
             <Col><h2>Daniela Napoli</h2></Col>
