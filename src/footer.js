@@ -22,7 +22,8 @@ function footer(){
             </p>  
             <br/>
             <p class="smaller-text">
-                Handmade with love. Last updated on August 2025.
+                Handmade with love. Last updated on August 2025.<br/>
+                Some icons were made by <a href="https://www.flaticon.com/authors/freepik" target='_blank' rel='noopener noreferrer' title="A website dedicated to royalty-free icons. Opens in new tab.">Freepik</a>.
                 <br/>
             </p> 
             </Col>

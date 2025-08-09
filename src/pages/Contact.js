@@ -7,12 +7,13 @@ import Col from 'react-bootstrap/Col';
 
 import NavBar from '../navbar';
 import Footer from '../footer';
+import { SkipToContentLink } from '../SkipLink';
 
 function Contact() {
   return (
     <div className="Contact">
-      <a href="#content" class="skip-to-main-link">Skip to content</a>
-      <NavBar></NavBar>
+      <SkipToContentLink/>
+      <NavBar/>
       <br/> 
       <section id="content">
           <Container fluid="md">

@@ -8,11 +8,12 @@ import Card from 'react-bootstrap/Card';
 
 import NavBar from '../../navbar';
 import Footer from '../../footer';
+import { SkipToContentLink } from '../../SkipLink';
 
 function Academic() {
   return (
   <div className="Academic">
-      <a href="#content" class="skip-to-main-link">Skip to content</a>
+      <SkipToContentLink />
       <NavBar></NavBar>
       <br/>
       <section id="content">

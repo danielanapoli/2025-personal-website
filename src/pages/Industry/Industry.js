@@ -9,12 +9,12 @@ import Button from 'react-bootstrap/Button';
 
 import NavBar from '../../navbar';
 import Footer from '../../footer';
-import { Link } from 'react-router-dom';
+import { SkipToContentLink } from '../../SkipLink';
 
 function Industry() {
   return (
     <div className="Industry">
-      <Link to="#content" class="skip-to-main-link">Skip to content</Link>
+      <SkipToContentLink />
       <NavBar></NavBar>
       <br/> 
       <section id="content">
@@ -100,7 +100,6 @@ function Industry() {
             <br/>
           </Container>
         <Footer/>
-        <Row><Col className='text-center'><p class='smaller-text'>Icon credits to <a href="https://www.flaticon.com/authors/freepik" target='_blank' rel='noopener noreferrer' title="A website dedicated to royalty-free icons. Opens in new tab.">Freepik</a>.</p></Col></Row>
       </section>
     </div>
   );

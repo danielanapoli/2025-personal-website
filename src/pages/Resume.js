@@ -4,16 +4,16 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Badge from 'react-bootstrap/Badge';
-import Alert from 'react-bootstrap/Alert';
 
 import NavBar from '../navbar';
 import Footer from '../footer';
+import { SkipToContentLink } from '../SkipLink';
 
 function Resume() {
   return (
     <div className="Resume">
-      <a href="#content" class="skip-to-main-link">Skip to content</a>
-      <NavBar></NavBar>
+      <SkipToContentLink/>
+      <NavBar/>
       <br/>
       <section id="content">
         <Container fluid="md">        

@@ -7,14 +7,13 @@ import Image from 'react-bootstrap/Image';
 
 import NavBar from '../navbar';
 import Footer from '../footer';
-
-import { Link } from 'react-router-dom';
+import { SkipToContentLink } from '../SkipLink';
 
 function Home() {
   return(
   <div className="Home">
-    <Link to="#content" className='skip-to-main-link'>Skip to main</Link>
-    <NavBar></NavBar>
+    <SkipToContentLink/>
+    <NavBar/>
     <br/>
   <section id="content">
         <Container fluid="md">
