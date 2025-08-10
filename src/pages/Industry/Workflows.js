@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
 import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button';
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 import NavBar from '../../components/navbar';
 import Footer from '../../footer';
@@ -19,11 +19,11 @@ function IndustryWorkflows() {
       <br/> 
       <section id="content">
           <Container fluid="md">
-            <Row>
-              <Col>
-                <Button variant='link' href="/#/industry">&lt; Back to all projects</Button>
-              </Col>
-            </Row>
+          <Breadcrumb>
+            <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+            <Breadcrumb.Item href="/#/industry">Industry Portfolio</Breadcrumb.Item>
+            <Breadcrumb.Item active>Exploring Design Workflows</Breadcrumb.Item>
+          </Breadcrumb>
             <Row>
               <Col>
               <h1>Exploring Design Workflows</h1>

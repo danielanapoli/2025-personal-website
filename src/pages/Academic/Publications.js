@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Badge from 'react-bootstrap/Badge';
-import Button from 'react-bootstrap/Button';
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 import YoutubeEmbed from "../../YouTubeEmbed";
 import SlidesEmbed from '../../SlidesEmbed';
@@ -20,12 +20,12 @@ function AcademicPublications() {
       <br/> 
       <section id="content">
     <Container>
-        <Row>
-            <Col>
-                <Button variant='link' href="/#/academic">&lt; Back to all projects</Button>
-            </Col>
-        </Row>
-        <h1>Publications</h1>
+        <Breadcrumb>
+          <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+          <Breadcrumb.Item href="/#/academic">Academic Portfolio</Breadcrumb.Item>
+          <Breadcrumb.Item active>Paper Publications</Breadcrumb.Item>
+        </Breadcrumb>
+        <h1>Paper Publications</h1>
         <br/>
         <Row>
             <Col>
