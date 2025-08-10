@@ -15,7 +15,7 @@ import IndustryBenchmarking from './pages/Industry/Benchmarking.js'
 import IndustryRequirements from './pages/Industry/Requirements.js'
 import IndustryWorkflows from './pages/Industry/Workflows.js'
 import Contact from './pages/Contact.js';
-import Projects from './pages/Projects.js';
+import SideProjects from './pages/SideProjects.js';
 
 import './styles/App.css';
 
@@ -36,7 +36,7 @@ function App() {
           <Route path="/industry/requirements" element={<IndustryRequirements />} />
           <Route path="/industry/workflows" element={<IndustryWorkflows />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/side-projects" element={<SideProjects />} />
           
       </Routes>
     </Router>

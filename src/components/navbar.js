@@ -29,8 +29,8 @@ function navBar(){
               <NavDropdown.Item href="/#/academic/publications">Paper publications</NavDropdown.Item>
               <NavDropdown.Item href="/#/academic/talks">Talks and workshops</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/#/projects" disabled>Side Projects</Nav.Link>
-            <Nav.Link href="/#/resume" disabled>Resume</Nav.Link>
+            <Nav.Link href="/#/side-projects" disabled>Side Projects</Nav.Link>
+            <Nav.Link href="/#/resume">Resume</Nav.Link>
             <Nav.Link href="/#/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
