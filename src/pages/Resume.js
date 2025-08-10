@@ -98,7 +98,7 @@ const reactToPrintFn = useReactToPrint({
                 <li>Prepared clear, concise reports and presentations communicating key findings and actionable recommendations</li>
                 <li>Coached fellow researchers on defining research goals, study design, and impactfully sharing with stakeholders</li>
               </ul>
-              <Alert variant='light'>💡 Featured project: <Link to="danielanapoli.com/#/industry/requirements">Requirements Discovery</Link></Alert>              
+              <Alert variant='light'>💡 Featured project: <a target="_blank" rel="noopener noreferrer" title="Link to a project page on Daniela's website. Opens in a new tab." href="https://danielanapoli.com/#/industry/requirements">Requirements Discovery</a></Alert>              
             </Col>
             <Col className="text-end" md={3}>October 2021 - March 2023</Col>            
           </Row>
@@ -112,7 +112,7 @@ const reactToPrintFn = useReactToPrint({
                 <li>Developed Python modules for mapping research findings and website metadata to organizational personas</li>
                 <li>Supported Senior Researcher in designing usability tests for website evaluations</li>
               </ul>
-              <Alert variant='light'>💡 Featured project: <Link to="danielanapoli.com/#/industry/automation">Persona Automation</Link></Alert>
+              <Alert variant='light'>💡 Featured project: <a target="_blank" rel="noopener noreferrer" title="Link to a project page on Daniela's website. Opens in a new tab." href="https://danielanapoli.com/#/industry/automation">Persona Automation</a></Alert>
             </Col>
             <Col className="text-end" md={3}>September 2020 - December 2020</Col>
           </Row>
@@ -134,7 +134,7 @@ const reactToPrintFn = useReactToPrint({
                   <li>Writing Need Statements</li>
                 </ul>
               </ul>
-              <Alert variant='light'>💡 Featured project: <Link to="danielanapoli.com/#/industry/workflows">Analyzing Design Workflows</Link></Alert>
+              {/* <Alert variant='light'>💡 Featured project: <a target="_blank" rel="noopener noreferrer" title="Link to a project page on Daniela's website. Opens in a new tab." href="https://danielanapoli.com/#/industry/workflows">Analyzing Design Workflows</a></Alert> */}
             </Col>
             <Col className="text-end" md={3}>May 2019 - December 2019</Col>
           </Row>
