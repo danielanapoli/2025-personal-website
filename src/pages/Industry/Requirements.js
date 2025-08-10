@@ -22,11 +22,11 @@ function IndustryRequirements() {
           <Breadcrumb>
             <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
             <Breadcrumb.Item href="/#/industry">Industry Portfolio</Breadcrumb.Item>
-            <Breadcrumb.Item active>Automatic Userbase Segmentation</Breadcrumb.Item>
+            <Breadcrumb.Item active>Requirements Discovery</Breadcrumb.Item>
           </Breadcrumb>
             <Row>
               <Col>
-              <h1>Requirements Analysis</h1>
+              <h1>Requirements Discovery</h1>
               </Col>
             </Row>
             <br/><br/>
@@ -91,7 +91,7 @@ function IndustryRequirements() {
               <AccordionItem index={3} header={"Impact"}>
                   <ul id="accordion-content">
                     <li>A deeper understanding of the intersection between business needs and user needs</li>
-                    <li>Validated and comprehensive visionary documents for aligning internal stakeholders and communicate future initiatives to external stakeholders</li>
+                    <li>Validated and comprehensive visionary documents for aligning internal stakeholders and communicating future initiatives to external stakeholders</li>
                     <li>Empirically-based evaluations of current offerings</li>
                     <li>Data-driven recommendations for future offerings</li>
                   </ul>

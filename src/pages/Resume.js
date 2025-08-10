@@ -46,11 +46,11 @@ const reactToPrintFn = useReactToPrint({
           <Row>
             <Col md={10}>
               <ul>
-                <li>PhD and MA in Human–Computer Interaction and usable security, applying user-centered design, accessibility principles, and human factors to technology solutions in various domains</li>
-                <li>7+ years of mixed-methods research experience (usability testing, heuristic evaluation, interviews, surveys, statistical analysis) to inform research roadmaps and product strategy</li>
-                <li>Lead requirements analysis, collaborating with cross-functional teams to conduct interviews, journey mapping, task analysis, and co-create wireframes aligned with business and user needs</li>
-                <li>Develop automated user segmentation with Python NLP, leveraging data analysis and persona development to deliver scalable insights and support AI integration.</li>
-                <li>Conduct usability benchmarking using task-based testing, A/B testing, and statistical evaluation to measure ROI, guide evidence-based design recommendations, and secure stakeholder buy-in.</li>
+                <li>PhD and MA in Human–Computer Interaction with experience in user-centered design, usable security, and accessibility in various domains</li>
+                <li>Applies 7+ years of mixed-methods research experience (usability testing, heuristic evaluation, interviews, surveys, statistical analysis) to inform research roadmaps and product strategy</li>
+                <li>Leads requirements analysis, collaborating with cross-functional teams to conduct interviews, journey mapping, task analysis, and co-create wireframes aligned with business and user needs</li>
+                <li>Develops automated user segmentation with Python, leveraging data analysis and persona development to deliver scalable insights and support AI integration.</li>
+                <li>Conducts usability benchmarking using task-based testing, A/B testing, and statistical evaluation to measure ROI, guide evidence-based design recommendations, and secure stakeholder buy-in.</li>
               </ul>
             </Col>
           </Row>
@@ -133,6 +133,7 @@ const reactToPrintFn = useReactToPrint({
                   <li>Value Proposition Analysis</li>
                   <li>Writing Need Statements</li>
                 </ul>
+                <li>Packaged and presented key findings at internal stakeholder meetings and an internship-related conference</li>
               </ul>
               {/* <Alert variant='light'>💡 Featured project: <a target="_blank" rel="noopener noreferrer" title="Link to a project page on Daniela's website. Opens in a new tab." href="https://danielanapoli.com/#/industry/workflows">Analyzing Design Workflows</a></Alert> */}
             </Col>
@@ -144,7 +145,7 @@ const reactToPrintFn = useReactToPrint({
               CAE, Ottawa, Ontario<br/>
               <ul>
                 <li>Collaborated with developers to craft a proof-of-concept for a cost-effective virtual reality aviation training system</li>
-                <li>Conducted usability studies to assess impact the proof-of-concept on users' learning goals and situational awareness</li>
+                <li>Conducted usability studies to assess the impact of the proof-of-concept on users' learning goals and situational awareness</li>
                 <li>Systematically reviewed academic literature exploring augmented reality (AR) in military training for R&D proposals</li>
                 <li>Crafted technical reports and presentations to share findings with upper management and other internal stakeholders</li>
               </ul>

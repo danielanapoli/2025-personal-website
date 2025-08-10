@@ -47,7 +47,7 @@ function IndustryAutomation() {
                 </ol>
                 *Note: This analysis was initially planned to be completed manually with Excel.  
                 With my programming background, I identified an opportunity to improve the project's efficiency and accuracy with Python. 
-                As a result, the project was completed <strong>weeks sooner</strong> than anticipated. The process methods and resulting deliverables also <strong>extended far beyond</strong> the UX Team.                               
+                As a result, the project was completed <strong>weeks sooner</strong> than anticipated. Final deliverables were able to <strong>extend far beyond</strong> the UX Team.                               
               </AccordionItem>
               <AccordionItem index={1} header={"Tools"}>
                 <ul id="accordion-content">
@@ -89,7 +89,7 @@ function IndustryAutomation() {
                     <ul>
                       <li>E.g., Persona A most often uses the XYZ tool on the website</li>
                     </ul> 
-                    <li>Extracted new insights</li>
+                    <li>Extracted new user insights and integrated findings in the persona framework</li>
                     <ul>
                       <li>E.g., Persona B is most likely to report XYZ pain points</li>
                     </ul>
@@ -98,7 +98,7 @@ function IndustryAutomation() {
               <AccordionItem index={3} header={"Impact"}>
                 <ul id="accordion-content">
                   <li>Empirical evidence to validate and extend the persona framework</li> 
-                  <li>Quick, easy, reusable way to map research data to the persona framework</li>     
+                  <li>Quick, easy, reusable module to help map future usability research data and website metadata to the persona framework</li>     
                   <li>Proof-of-concept for future AI features in the organization's marketing software</li>
                   <li>Recommendations for organizational alignment on the targeted user base</li>
                 </ul>
