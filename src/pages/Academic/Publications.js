@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button';
 import YoutubeEmbed from "../../YouTubeEmbed";
 import SlidesEmbed from '../../SlidesEmbed';
 
-import NavBar from '../../navbar';
+import NavBar from '../../components/navbar';
 import Footer from '../../footer';
 
 function AcademicPublications() {

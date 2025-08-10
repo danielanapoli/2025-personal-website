@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-import NavBar from '../../navbar';
+import NavBar from '../../components/navbar';
 import Footer from '../../footer';
 import { SkipToContentLink } from '../../SkipLink';
 
@@ -34,7 +34,7 @@ function Industry() {
             <Row fluid>
               <Col className='d-flex justify-content-center'>
                 <Card style={{ width: 'auto' }} bg="light" className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/pie-chart.png`} />
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} />
                   <Card.Body>
                     <Card.Title>Automatic Userbase Segmentation</Card.Title>
                     <Card.Text>
@@ -50,7 +50,7 @@ function Industry() {
               </Col>
               <Col className='d-flex justify-content-center'>
                 <Card style={{ width: 'auto' }} bg="light" className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/statistics.png`} />
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/statistics.png`} />
                   <Card.Body>
                     <Card.Title>Usability Benchmarking</Card.Title>
                     <Card.Text>
@@ -66,7 +66,7 @@ function Industry() {
               </Col>
               <Col className='d-flex justify-content-center'>
                 <Card style={{ width: 'auto' }} bg="light" className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/project.png`} />
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/project.png`} />
                   <Card.Body>
                     <Card.Title>Requirements Analysis</Card.Title>
                     <Card.Text>
@@ -82,7 +82,7 @@ function Industry() {
               </Col>
               <Col className='d-flex justify-content-center'>
                 <Card style={{ width: 'auto' }} bg="light"  className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/team.png`} />
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} />
                   <Card.Body>
                     <Card.Title>Exploring Design Workflows</Card.Title>
                     <Card.Text>

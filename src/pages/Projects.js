@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
 
-import NavBar from '../navbar';
+import NavBar from '../components/navbar';
 import Footer from '../footer';
 import { SkipToContentLink } from '../SkipLink';
 
@@ -41,7 +41,7 @@ function Contact() {
                 <p>Nunc egestas euismod tortor, at sodales purus vulputate eget. Integer porttitor sollicitudin posuere. Mauris ullamcorper augue nec commodo dignissim. In et imperdiet felis, eu fermentum massa. Duis sodales lacinia risus quis faucibus. Nunc consequat urna vitae sollicitudin convallis. Quisque eu eleifend nunc. Ut eget viverra arcu. Nam placerat finibus tellus, et interdum sem laoreet non.</p>
             </Col>
             <Col className='text-center'>              
-                <Image width="90%" src={`${process.env.PUBLIC_URL}/octomagic-wireframe.png`} alt="Some chicken scratch photos from brainstorming."></Image>
+                <Image width="90%" src={`${process.env.PUBLIC_URL}/img/octomagic-wireframe.png`} alt="Some chicken scratch photos from brainstorming."></Image>
                 <br/><br/>
                 <p>Check out the <a href="https://github.com/PencilNoseCode/OCTGN-MtG-Deck-Converter" target="_blank" rel="noopener noreferrer" title="Daniela's profile on GitHub. Opens in a new tab.">repository on GitHub</a>.</p>
             </Col>
@@ -50,7 +50,7 @@ function Contact() {
             <br/>
             <Row>
             <Col className='text-center'>              
-                <Image src={`${process.env.PUBLIC_URL}/project.png`} alt=""></Image>
+                <Image src={`${process.env.PUBLIC_URL}/img/project.png`} alt=""></Image>
                 <br/><br/>
                 <p>Check out the <a href="https://github.com/danielanapoli/danielanapoli.github.io/tree/master" target="_blank" rel="noopener noreferrer" title="Daniela's profile on GitHub. Opens in a new tab.">repository on GitHub</a>.</p>
             </Col>
@@ -77,7 +77,7 @@ function Contact() {
                 <p>Nunc egestas euismod tortor, at sodales purus vulputate eget. Integer porttitor sollicitudin posuere. Mauris ullamcorper augue nec commodo dignissim. In et imperdiet felis, eu fermentum massa. Duis sodales lacinia risus quis faucibus. Nunc consequat urna vitae sollicitudin convallis. Quisque eu eleifend nunc. Ut eget viverra arcu. Nam placerat finibus tellus, et interdum sem laoreet non.</p>
             </Col>
             <Col className='text-center'>              
-                <Image src={`${process.env.PUBLIC_URL}/project.png`} alt=""></Image>
+                <Image src={`${process.env.PUBLIC_URL}/img/project.png`} alt=""></Image>
                 <br/><br/>
                 <p>Check out the <a href="https://github.com/danielanapoli/scholarlyScrape" target="_blank" rel="noopener noreferrer" title="Daniela's profile on GitHub. Opens in a new tab.">repository on GitHub</a>.</p>
             </Col>
@@ -85,7 +85,7 @@ function Contact() {
             <br/><br/>
             <Row>
             <Col className='text-center'>              
-                <Image src={`${process.env.PUBLIC_URL}/project.png`} alt=""></Image>
+                <Image src={`${process.env.PUBLIC_URL}/img/project.png`} alt=""></Image>
                 <br/><br/>
                 <p>Check out the <a href="https://github.com/danielanapoli/NoVizThermal" target="_blank" rel="noopener noreferrer" title="Daniela's profile on GitHub. Opens in a new tab.">repository on GitHub</a>.</p>
             </Col>

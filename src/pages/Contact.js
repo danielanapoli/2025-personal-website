@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import NavBar from '../navbar';
+import NavBar from '../components/navbar';
 import Footer from '../footer';
 import { SkipToContentLink } from '../SkipLink';
 

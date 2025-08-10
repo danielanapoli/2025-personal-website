@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-import NavBar from '../../navbar';
+import NavBar from '../../components/navbar';
 import Footer from '../../footer';
 import { SkipToContentLink } from '../../SkipLink';
 
@@ -34,7 +34,7 @@ function Academic() {
           <Col></Col>
           <Col className='d-flex justify-content-center'>
             <Card style={{ width: 'auto' }} bg="light" className='border-0'>
-              <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/news.png`}/>
+              <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/news.png`}/>
               <Card.Body>
                 <Card.Title>Publications</Card.Title>
                 <Card.Text>
@@ -46,7 +46,7 @@ function Academic() {
           </Col>
           <Col className='d-flex justify-content-center'>
             <Card style={{ width: 'auto' }} bg="light" className='border-0'>
-              <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/microphone.png`}/>
+              <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/microphone.png`}/>
               <Card.Body>
                 <Card.Title>Talks</Card.Title>
                 <Card.Text>

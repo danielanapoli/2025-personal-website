@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
-import NavBar from '../../navbar';
+import NavBar from '../../components/navbar';
 import Footer from '../../footer';
 import { Accordion, AccordionItem } from '../../Accordion';
 
@@ -32,10 +32,9 @@ function IndustryRequirements() {
             <br/><br/>
             <Row>
               <Col className='text-center'>
-                <Image src={`${process.env.PUBLIC_URL}/project.png`} alt=""></Image>
+                <Image src={`${process.env.PUBLIC_URL}/img/project.png`} alt=""></Image>
               </Col>
             </Row>
-            <br/><br/>
             <Accordion defaultActiveKeys={["0"]} allKeys={["0", "1", "2", "3"]}>
               <AccordionItem index={0} header={"Objectives"}>
                 <p id="accordion-content">

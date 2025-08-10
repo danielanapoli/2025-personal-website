@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
-import NavBar from '../navbar';
+import NavBar from '../components/navbar';
 import Footer from '../footer';
 import { SkipToContentLink } from '../SkipLink';
 
@@ -39,7 +39,7 @@ function Home() {
               <br/>
             </Col>
             <Col className='text-center'>
-              <Image width="50%" alt="Photo of smiling Daniela wearing a buckethat" src={`${process.env.PUBLIC_URL}/daniela.jpg`} roundedCircle thumbnail/>
+              <Image width="50%" alt="Photo of smiling Daniela wearing a buckethat" src={`${process.env.PUBLIC_URL}/img/daniela.jpg`} roundedCircle thumbnail/>
             </Col>
           </Row>
         <br/>
