@@ -4,10 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Badge from 'react-bootstrap/Badge';
+import Alert from 'react-bootstrap/Alert';
 
 import NavBar from '../components/navbar';
-import Footer from '../footer';
 import { SkipToContentLink } from '../SkipLink';
+import { Link } from 'react-router-dom';
 
 function Resume() {
   return (
@@ -16,26 +17,26 @@ function Resume() {
       <NavBar/>
       <br/>
       <section id="content">
-        <Container fluid="md">        
-          <br/>
-          <Row>
-            <Col><h2>Daniela Napoli</h2></Col>
-          </Row>
-          <Row>
-            <Col md={4} className="text-start">📍 Hamilton, Ontario</Col>
-            <Col md={3} fluid className="text-center">📧 <a href="mailto:hello@danielanapoli.com" rel="noopener noreferrer" title="Daniela's email address. Will open the mail app.">hello@danielanapoli.com</a></Col>
-            <Col md={4} fluid className="text-end">🔗 <a href="https://www.linkedin.com/in/danielanap" target="_blank" rel="noopener noreferrer">linkedin.com/in/danielanap</a></Col>
-          </Row>
-          <br/>
+        <Container fluid="md">       
+          <Row className='text-center'>
+            <h1>Daniela Napoli</h1>
+            <p>
+              Ontario, Canada
+              <br/><a href="mailto:hello@danielanapoli.com" rel="noopener noreferrer" title="Daniela's email address. Will open the mail app.">hello@danielanapoli.com</a>
+              <br/><a href="https://danielanapoli.com" target="_blank" rel="noopener noreferrer" title="Daniela's personal website. Opens in new tab.">www.danielanapoli.com</a>
+            </p>
+          </Row>        
           <Row>
             <Col><h3 class="underlined-heading">Highlight Summary</h3></Col>
           </Row>
           <Row>
             <Col md={10}>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>PhD and MA in Human–Computer Interaction and usable security, applying user-centered design, accessibility principles, and human factors to technology solutions in various domains</li>
+                <li>7+ years of mixed-methods research experience (usability testing, heuristic evaluation, interviews, surveys, statistical analysis) to inform research roadmaps and product strategy</li>
+                <li>Lead requirements analysis, collaborating with cross-functional teams to conduct interviews, journey mapping, task analysis, and co-create wireframes aligned with business and user needs</li>
+                <li>Develop automated user segmentation with Python NLP, leveraging data analysis and persona development to deliver scalable insights and support AI integration.</li>
+                <li>Conduct usability benchmarking using task-based testing, A/B testing, and statistical evaluation to measure ROI, guide evidence-based design recommendations, and secure stakeholder buy-in.</li>
               </ul>
             </Col>
           </Row>
@@ -48,7 +49,7 @@ function Resume() {
               <strong>Doctor of Philosophy in Computer Science</strong><br/>
               Carleton University, Ottawa, Ontario<br/>
               <ul>
-                <li>Thesis focus on designing remote healthcare technology for older adults; will be available to read soon.</li>
+                <li>Thesis focus on designing remote healthcare technology for older adults</li>
                 <li>Senior member of Carleton's Human Oriented Research in Usable Security <a href="https://chorus.scs.carleton.ca/" target="_blank" rel="noopener noreferrer" title="Link to the Carleton Usable Security research lab. Opens in a new tab.">(CHORUS)</a> lab</li>
               </ul>
             </Col>
@@ -59,7 +60,7 @@ function Resume() {
               <strong>Master of Arts in Human-Computer Interaction</strong><br/>
               Carleton University, Ottawa, Ontario<br/>
               <ul>
-                <li>Thesis focus on usable security for people with visual disabiliites; available to read through <a href="https://carleton.scholaris.ca/items/b9e26ef6-df12-4cf4-bfea-07a99d045f59" target="_blank" rel="noopener noreferrer" title="Link to Carleton University's Thesis repository">Carleton University</a>.</li>
+                <li>Thesis focus on usable security for people with visual disabilites; read more at <a href="https://carleton.scholaris.ca/items/b9e26ef6-df12-4cf4-bfea-07a99d045f59" target="_blank" rel="noopener noreferrer" title="Link to Carleton University's Thesis repository">Carleton's repository</a></li>
                 <li>Junior member of Carleton's Human Oriented Research in Usable Security <a href="https://chorus.scs.carleton.ca/" target="_blank" rel="noopener noreferrer" title="Link to the Carleton Usable Security research lab. Opens in a new tab.">(CHORUS)</a> lab</li>
               </ul>
             </Col>
@@ -74,11 +75,16 @@ function Resume() {
               <strong>Senior User Experience Researcher</strong><br/>
               Canadian Institute for Health Information, Toronto, Ontario<br/>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Collaborated with team leads and program managers to define project needs, research goals, and timelines</li>
+                <li>Designed and facilitated qualitative and quantitative usability evaluations of offerings, including:</li>
+                  <ul>
+                    <li>Usability benchmarking to assess UX and SEO ROI</li>
+                    <li>Conducting interviews and focus groups to determine requirements for future offerings</li>
+                  </ul>
+                <li>Prepared clear, concise reports and presentations communicating key findings and actionable recommendations</li>
+                <li>Coached fellow researchers on defining research goals, study design, and impactfully sharing with stakeholders</li>
               </ul>
+              <Alert variant='light'>💡 Featured project: <Link to="danielanapoli.com/#/industry/requirements">Requirements Discovery</Link></Alert>              
             </Col>
             <Col className="text-end" md={3}>October 2021 - March 2023</Col>            
           </Row>
@@ -87,11 +93,12 @@ function Resume() {
               <strong>User Experience Researcher, Intern</strong><br/>
               Canadian Institute for Health Information, Ottawa, Ontario<br/>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Facilitated cross-departmental workshops focused on refining user personas</li>
+                <li>Conducted user interviews to validate and develop user personas</li>
+                <li>Developed Python modules for mapping research findings and website metadata to organizational personas</li>
+                <li>Supported Senior Researcher in designing usability tests for website evaluations</li>
               </ul>
+              <Alert variant='light'>💡 Featured project: <Link to="danielanapoli.com/#/industry/automation">Persona Automation</Link></Alert>
             </Col>
             <Col className="text-end" md={3}>September 2020 - December 2020</Col>
           </Row>
@@ -100,11 +107,20 @@ function Resume() {
               <strong>Design Researcher, Intern</strong><br/>
               IBM, Ottawa, Ontario<br/>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Conducted and analyzed user interviews across Design, Development, and Product Management departments to:</li>
+                <ul>
+                  <li>Map workflows and tool usage</li>
+                  <li>Identify organizational pain points</li>
+                  <li>Uncover opportunities for improved collaboration</li>
+                </ul>
+                <li>Designed and facilitated cross-department design thinking workshops to ideate future solutions in addressing design workflow challenges, including:</li>
+                <ul>
+                  <li>As-Is Scneario Mapping</li>
+                  <li>Value Proposition Analysis</li>
+                  <li>Writing Need Statements</li>
+                </ul>
               </ul>
+              <Alert variant='light'>💡 Featured project: <Link to="danielanapoli.com/#/industry/workflows">Analyzing Design Workflows</Link></Alert>
             </Col>
             <Col className="text-end" md={3}>May 2019 - December 2019</Col>
           </Row>
@@ -113,10 +129,10 @@ function Resume() {
               <strong>Human Factors Consultant, Intern</strong><br/>
               CAE, Ottawa, Ontario<br/>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Collaborated with developers to craft a proof-of-concept for a cost-effective virtual reality aviation training system</li>
+                <li>Conducted usability studies to assess impact the proof-of-concept on users' learning goals and situational awareness</li>
+                <li>Systematically reviewed academic literature exploring augmented reality (AR) in military training for R&D proposals</li>
+                <li>Crafted technical reports and presentations to share findings with upper management and other internal stakeholders</li>
               </ul>
             </Col>
             <Col className="text-end" md={3}>January 2017 - July 2017</Col>
@@ -128,7 +144,7 @@ function Resume() {
           </Row>
           <Row>
             <Col md={8}>
-              <strong>Measuring UX and ROI</strong><br/>
+              <strong>Measuring UX and ROI</strong> <Badge bg="secondary">Course</Badge><br/>
               NNGroup, <a href="https://www.nngroup.com/courses/measuring-ux/" target="_blank" rel="noopener noreferrer" title="Link to the course website. Opens in a new tab.">Online course</a><br/>
             </Col>
             <Col className="text-end" md={3}>August 2022</Col>
@@ -136,7 +152,7 @@ function Resume() {
           <br/>
           <Row>
             <Col md={8}>
-              <strong>Discovery: Building the Right Thing</strong><br/>
+              <strong>Discovery: Building the Right Thing</strong> <Badge bg="secondary">Course</Badge><br/>
               NNGroup, <a href="https://www.nngroup.com/courses/discovery/" target="_blank" rel="noopener noreferrer" title="Link to the course website. Opens in a new tab.">Online course</a><br/>
             </Col>
             <Col className="text-end" md={3}>August 2022</Col>
@@ -144,7 +160,7 @@ function Resume() {
           <br/>
           <Row>
             <Col md={8}>
-              <strong>Statistics for UX</strong><br/>
+              <strong>Statistics for UX</strong> <Badge bg="secondary">Course</Badge><br/>
               NNGroup, <a href="https://www.nngroup.com/courses/ux-statistics" target="_blank" rel="noopener noreferrer" title="Link to the course website. Opens in a new tab.">Online course</a><br/>
             </Col>
             <Col className="text-end" md={3}>August 2022</Col>
@@ -178,7 +194,6 @@ function Resume() {
           </Row>
           <br/>
         </Container>
-        <Footer/>
       </section>
     </div>
   );
