@@ -30,9 +30,9 @@ function IndustryBenchmarking() {
               <h1>Usability Benchmarking</h1>
               </Col>
             </Row>
-            <Row>
-              <Col className='text-center'>
-                <Image src={`${process.env.PUBLIC_URL}/img/statistics.png`} alt=""></Image>
+            <Row className="justify-content-md-center">
+              <Col xs="auto" className='text-center'>
+                <Image width="80%" src={`${process.env.PUBLIC_URL}/img/statistics.png`} alt=""></Image>
               </Col>
             </Row>
             <Accordion defaultActiveKeys={["0"]} allKeys={["0", "1", "2", "3"]}>
@@ -54,7 +54,7 @@ function IndustryBenchmarking() {
                 <h5>Define Performance Metrics</h5>
                   <p id="accordion-content">
                     <ul>
-                      <li>Consulted with UX and SEO teams to identify success indicators which align best with organizational goals</li>
+                      <li>Consulted with the UX and SEO teams to identify success indicators which align best with organizational goals</li>
                       <li>Recommended measurable and impactful metrics</li>
                       <li>Collaborated with other departments to access additional metadata to support usability test results</li>
                     </ul>
@@ -63,10 +63,10 @@ function IndustryBenchmarking() {
                   <p id="accordion-content">
                     <ul>
                       <li>Designed task-based, between-subject usability tests focused on recent usability and SEO changes</li>
-                      <li>Facilitated 10 sessions with internal stakeholders and end-users comparing old and new designs</li>
+                      <li>Facilitated 10 sessions with internal stakeholders and end-users, comparing old and new designs</li>
                       <li>Conducted descriptive and inferential statistics to identify significant differences in results</li>
                       <li>Leveraged website metadata to supplement and contextualize usability test findings </li>
-                      <li>Analyzed session transcripts for additional qualiative context</li>
+                      <li>Analyzed session transcripts for additional qualitative context</li>
                     </ul>
                   </p>
                 <h5>Share Research Findings and Recommendations</h5>
@@ -85,7 +85,7 @@ function IndustryBenchmarking() {
               <AccordionItem index={3} header={"Impact"}>
                 <p id="accordion-content">
                   <ul>
-                    <li>Empirical evidence to demonstrate the impact of past and current UX and SEO intiaitives</li>
+                    <li>Empirical evidence to demonstrate the impact of past and current UX and SEO initiatives</li>
                     <li>Cross-departmental alignment on project outcomes</li>
                     <li>Data-driven recommendations for future UX and SEO directions</li>
                   </ul>

@@ -30,11 +30,12 @@ function IndustryRequirements() {
               </Col>
             </Row>
             <br/><br/>
-            <Row>
-              <Col className='text-center'>
-                <Image src={`${process.env.PUBLIC_URL}/img/project.png`} alt=""></Image>
+            <Row className="justify-content-md-center">
+              <Col xs="auto" className='text-center'>
+                <Image width="80%" src={`${process.env.PUBLIC_URL}/img/project.png`} alt=""></Image>
               </Col>
             </Row>
+            <br/>
             <Accordion defaultActiveKeys={["0"]} allKeys={["0", "1", "2", "3"]}>
               <AccordionItem index={0} header={"Objectives"}>
                 <p id="accordion-content">
@@ -54,29 +55,29 @@ function IndustryRequirements() {
               <AccordionItem index={2} header={"Process"}>
                   <h5>Internal Stakeholder Interviews</h5>
                   <ul id="accordion-content">
-                    <li>Conducted 20-hours of semi-structured interviews with various departmental leaders</li>
+                    <li>Conducted 20 hours of semi-structured interviews with various departmental leaders</li>
                     <ul>
                       <li>Explored the internal workflows of managing current offerings</li>
                       <li>Discussed pain points and how future solutions can improve those challenges</li>
                       <li>Considered high-level internal service changes required for accommodating various shifts in offerings</li>
                     </ul>
                     <li>Thematically analyzed interview findings to identify common themes and key insights</li>
-                    <li>Validated and extended upon key takeaways with findings from previous related intiatives</li>  
+                    <li>Validated and extended upon key takeaways with findings from previous related initiatives</li>  
                   </ul>
                   <h5>User Interviews</h5>
                   <ul id="accordion-content">
                     <li>Conducted 14 1-hour semi-structured interviews with users across Canada</li>
                     <ul>
-                      <li>Explored users' organizational goals, teams dynamics, and everyday workflows</li>
+                      <li>Explored users' organizational goals, team dynamics, and everyday workflows</li>
                       <li>Explored how current offerings are leveraged in everyday work</li>
                       <li>Discussed pain points and how future solutions can improve those challenges</li>
                     </ul>
                     <li>Thematically analyzed interview findings to identify common themes and key insights</li>
-                    <li>Validated and extended upon key takeaways with findings from previous related intiatives</li>
+                    <li>Validated and extended upon key takeaways with findings from previous related initiatives</li>
                   </ul>
                   <h5>Design Ideation</h5>
                   <ul id="accordion-content">
-                    <li>Collaborated with project's lead designer to formulate initial design wireframes</li>
+                    <li>Collaborated with the project's lead designer to formulate initial design wireframes</li>
                     <li>Provided data-driven design recommendations during initial design reviews</li>
                     <li>Guided and participated in a cross-department design studio workshop to finalize future-vision design wireframes</li>
                   </ul>
@@ -84,13 +85,13 @@ function IndustryRequirements() {
                   <ul id="accordion-content">
                     <li>Crafted <i>current state</i> user journey maps to communicate key findings and recommendations</li>
                     <li>Crafted <i>future state</i> user journey maps to contextualize future-vision design wireframes</li>
-                    <li>Supported leadership in evaluating how to accomodate users while meeting organizational goals</li>
+                    <li>Supported leadership in evaluating how to accommodate users while meeting organizational goals</li>
                   </ul>
               </AccordionItem>
               <AccordionItem index={3} header={"Impact"}>
                   <ul id="accordion-content">
-                    <li>Deeper understanding the intersection of business needs and user needs</li>
-                    <li>Comprehensive visionary documents used to align internal stakeholders and communicate future initatives to external stakeholders</li>
+                    <li>A deeper understanding of the intersection between business needs and user needs</li>
+                    <li>Validated and comprehensive visionary documents for aligning internal stakeholders and communicate future initiatives to external stakeholders</li>
                     <li>Empirically-based evaluations of current offerings</li>
                     <li>Data-driven recommendations for future offerings</li>
                   </ul>

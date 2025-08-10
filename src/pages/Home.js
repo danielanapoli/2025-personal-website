@@ -17,13 +17,13 @@ function Home() {
     <br/>
   <section id="content">
         <Container fluid="md">
-          <Row>
-            <Col>
+          <Row className="justify-content-md-center">
+            <Col xs lg="10">
               <h1>Hi, I'm Daniela</h1>
             </Col>
           </Row>
-          <Row>
-            <Col>
+          <Row className="justify-content-md-center">
+            <Col xs lg="10" md="auto">
               <p>
                 I'm a <strong>Usability (UX) Researcher</strong> from Ontario, Canada.
                 On multi-disciplinary teams, I can be your go-to for embedding users' needs in technological visions.
@@ -38,7 +38,7 @@ function Home() {
               </p>
               <br/>
             </Col>
-            <Col className='text-center'>
+            <Col sm="auto" xs="auto" md="auto" lg="6" className='text-center'>
               <Image width="50%" alt="Photo of smiling Daniela wearing a buckethat" src={`${process.env.PUBLIC_URL}/img/daniela.jpg`} roundedCircle thumbnail/>
             </Col>
           </Row>

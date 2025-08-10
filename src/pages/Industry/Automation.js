@@ -31,9 +31,9 @@ function IndustryAutomation() {
               </Col>
             </Row>
             <br/><br/>
-            <Row>
-              <Col className='text-center'>
-                <Image src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} alt=""></Image>
+            <Row className="justify-content-md-center">
+              <Col xs="auto" className='text-center'>
+                <Image width="80%" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} alt=""></Image>
               </Col>
             </Row>
             <Accordion defaultActiveKeys={["0"]} allKeys={["0", "1", "2", "3"]}>
@@ -62,8 +62,8 @@ function IndustryAutomation() {
                     <li>Extracted user responses to open-text, demographic questions from survey database</li>
                     <li>Prepared extracted data for processing
                       <ul>
-                        <li>Assessed response validity, exclude invalid responses</li>
-                        <li>Adjusted for spelling varitions</li>
+                        <li>Assessed response validity, excluded invalid responses</li>
+                        <li>Adjusted for spelling variations</li>
                         <li>Translated French-language responses</li>
                       </ul>
                     </li>
@@ -77,7 +77,7 @@ function IndustryAutomation() {
                       <li>Manually assessed unmapped response for potential keyword list improvements</li>
                       <li>Improved mapping algorithm</li>
                         <ul>
-                          <li>E.g., Updated word stems, considered medical terminology, considered vernacular variations</li>
+                          <li>E.g., Updated word stems, considered medical terminology, and considered vernacular variations</li>
                         </ul>
                     </ul>
                     <li>Ended processing when 87% of the survey responses could be accurately categorized</li>
@@ -85,13 +85,13 @@ function IndustryAutomation() {
                 <h4>Updating the Persona Framework</h4>
                   <ul id="accordion-content">
                     <li>Once respondents were categorized, full responses were further analyzed</li>
-                    <li>Validated existing persona framework</li>
+                    <li>Validated the existing persona framework</li>
                     <ul>
-                      <li>E.g., Persona A most often uses XYZ tool on the website</li>
+                      <li>E.g., Persona A most often uses the XYZ tool on the website</li>
                     </ul> 
                     <li>Extracted new insights</li>
                     <ul>
-                      <li>E.g., Persona B is most likely to report XYZ pain point</li>
+                      <li>E.g., Persona B is most likely to report XYZ pain points</li>
                     </ul>
                   </ul>
               </AccordionItem>
@@ -100,7 +100,7 @@ function IndustryAutomation() {
                   <li>Empirical evidence to validate and extend the persona framework</li> 
                   <li>Quick, easy, reusable way to map research data to the persona framework</li>     
                   <li>Proof-of-concept for future AI features in the organization's marketing software</li>
-                  <li>Recommendations for organizational alignment on targeted userbase</li>
+                  <li>Recommendations for organizational alignment on the targeted user base</li>
                 </ul>
               </AccordionItem>
             </Accordion>

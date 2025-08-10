@@ -31,41 +31,9 @@ function Industry() {
               </Col>
             </Row>
             <br/>            
-            <Row fluid>
-              <Col className='d-flex justify-content-center'>
-                <Card style={{ width: 'auto' }} bg="light" className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} />
-                  <Card.Body>
-                    <Card.Title>Automatic Userbase Segmentation</Card.Title>
-                    <Card.Text>
-                      Created an automated module for processing user data and website metadata to thematically group insights and inform persona implementation.
-                    </Card.Text>
-                    <Card.Subtitle>Technical skills</Card.Subtitle>
-                    <Card.Text>
-                      Python programming, data scraping, data standardization, natural language processing
-                    </Card.Text>
-                  <Button variant="secondary" href="/#/industry/automation">Read more</Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col className='d-flex justify-content-center'>
-                <Card style={{ width: 'auto' }} bg="light" className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/statistics.png`} />
-                  <Card.Body>
-                    <Card.Title>Usability Benchmarking</Card.Title>
-                    <Card.Text>
-                      Assessed how iterative design updates influenced usability and SEO metrics over time.
-                    </Card.Text>
-                    <Card.Subtitle>Mixed methods</Card.Subtitle>
-                    <Card.Text>
-                      task-based usability testing, metadata analysis, descriptive statistics, t-tests, ANOVA, chi-square tests, thematic analysis
-                    </Card.Text>
-                  <Button variant="secondary" href="/#/industry/benchmarking">Read more</Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col className='d-flex justify-content-center'>
-                <Card style={{ width: 'auto' }} bg="light" className='border-0'>
+            <Row className="justify-content-md-center">
+              <Col sm="auto" md={5} lg={5}  className='d-flex justify-content-center mb-3'>
+                <Card style={{ width: '80%' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/project.png`} />
                   <Card.Body>
                     <Card.Title>Requirements Analysis</Card.Title>
@@ -80,8 +48,40 @@ function Industry() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className='d-flex justify-content-center'>
-                <Card style={{ width: 'auto' }} bg="light"  className='border-0'>
+              <Col sm="auto" md={5} lg={5}  className='d-flex justify-content-center mb-3'>
+                <Card style={{ width: '80%' }} bg="light" className='border-0'>
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} />
+                  <Card.Body>
+                    <Card.Title>Automatic Userbase Segmentation</Card.Title>
+                    <Card.Text>
+                      Created an automated module for processing user data and website metadata to thematically group insights and inform persona implementation.
+                    </Card.Text>
+                    <Card.Subtitle>Technical skills</Card.Subtitle>
+                    <Card.Text>
+                      Python programming, data scraping, data standardization, natural language processing
+                    </Card.Text>
+                  <Button variant="secondary" href="/#/industry/automation">Read more</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm="auto" md={5} lg={5} className='d-flex justify-content-center mb-3'>
+                <Card style={{ width: '80%' }} bg="light" className='border-0'>
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/statistics.png`} />
+                  <Card.Body>
+                    <Card.Title>Usability Benchmarking</Card.Title>
+                    <Card.Text>
+                      Assessed how iterative design updates influenced usability and SEO metrics over time.
+                    </Card.Text>
+                    <Card.Subtitle>Mixed methods</Card.Subtitle>
+                    <Card.Text>
+                      task-based usability testing, metadata analysis, descriptive statistics, t-tests, ANOVA, chi-square tests, thematic analysis
+                    </Card.Text>
+                  <Button variant="secondary" href="/#/industry/benchmarking">Read more</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col sm="auto" md={5} lg={5} className='d-flex justify-content-center mb-3'>
+                <Card style={{ width: '80%' }} bg="light"  className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} />
                   <Card.Body>
                     <Card.Title>Exploring Design Workflows</Card.Title>

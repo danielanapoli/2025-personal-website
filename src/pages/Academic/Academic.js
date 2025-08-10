@@ -30,10 +30,9 @@ function Academic() {
             </Col>
         </Row>
         <br/>
-        <Row fluid>
-          <Col></Col>
-          <Col className='d-flex justify-content-center'>
-            <Card style={{ width: 'auto' }} bg="light" className='border-0'>
+        <Row className="justify-content-md-center">
+          <Col sm="auto" md={5} lg={5} className='d-flex justify-content-center mb-3'>
+            <Card style={{ width: '80%' }} bg="light" className='border-0'>
               <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/news.png`}/>
               <Card.Body>
                 <Card.Title>Publications</Card.Title>
@@ -44,8 +43,8 @@ function Academic() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className='d-flex justify-content-center'>
-            <Card style={{ width: 'auto' }} bg="light" className='border-0'>
+          <Col sm='auto' md={5} lg={5} className='d-flex justify-content-center mb-3'>
+            <Card style={{ width: '80%' }} bg="light" className='border-0'>
               <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/microphone.png`}/>
               <Card.Body>
                 <Card.Title>Talks</Card.Title>
@@ -56,7 +55,6 @@ function Academic() {
               </Card.Body>
             </Card>
           </Col>
-          <Col></Col>
         </Row>
         </Container>      
       </section>

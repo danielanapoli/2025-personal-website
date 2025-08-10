@@ -30,9 +30,9 @@ function IndustryWorkflows() {
               </Col>
             </Row>
             <br/><br/>
-            <Row>
-              <Col className='text-center'>
-                <Image src={`${process.env.PUBLIC_URL}/img/team.png`} alt=""></Image>
+            <Row className="justify-content-md-center">
+              <Col xs="auto" className='text-center'>
+                <Image width="80%" src={`${process.env.PUBLIC_URL}/img/team.png`} alt=""></Image>
               </Col>
             </Row>
             <br/><br/>
