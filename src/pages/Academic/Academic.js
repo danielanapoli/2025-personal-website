@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
 import NavBar from '../../components/navbar';
 import Footer from '../../footer';
@@ -19,7 +20,7 @@ function Academic() {
       <section id="content">
       <Container fluid='md'>
         <Row>
-            <Col>
+          <Col>
             <h1>Academic Portfolio</h1>
             <p>
               Some of my favourite academic works focused on <strong>accessibility</strong> and <strong>usable security</strong>.
@@ -27,12 +28,13 @@ function Academic() {
               You can also explore my <a href="/#/industry" rel="noopener noreferrer" title="The industry research portfolio page of Daniela's website.">industry portfolio</a> or my <a href="/#" rel="noopener noreferrer" title="A link to Daniela's online resume.">resume</a>.
               Feel free to connect if you'd like to talk more about anything listed here!
             </p>
-            </Col>
+          </Col>
         </Row>
         <br/>
-        <Row className="justify-content-md-center">
-          <Col sm="auto" md={5} lg={5} className='d-flex justify-content-center mb-3'>
-            <Card style={{ width: '80%' }} bg="light" className='border-0'>
+        <Row fluid className="justify-content-md-center">
+          <CardGroup>
+            <Card style={{ width: '100%' }} bg="" className='border-0'></Card>
+            <Card style={{ width: '100%' }} bg="light" className='border-0'>
               <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/news.png`}/>
               <Card.Body>
                 <Card.Title>Publications</Card.Title>
@@ -42,9 +44,7 @@ function Academic() {
                 <Button variant="secondary" href="/#/academic/publications">Read more</Button>
               </Card.Body>
             </Card>
-          </Col>
-          <Col sm='auto' md={5} lg={5} className='d-flex justify-content-center mb-3'>
-            <Card style={{ width: '80%' }} bg="light" className='border-0'>
+            <Card style={{ width: '100%' }} bg="light" className='border-0'>
               <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/microphone.png`}/>
               <Card.Body>
                 <Card.Title>Talks</Card.Title>
@@ -53,12 +53,13 @@ function Academic() {
                 </Card.Text>
                 <Button variant="secondary" href="/#/academic/talks">Read more</Button>
               </Card.Body>
-            </Card>
-          </Col>
+            </Card>            
+            <Card style={{ width: '100%' }} bg="" className='border-0'></Card>
+          </CardGroup>
         </Row>
-        </Container>      
-      </section>
-      <Footer/>
+      </Container>      
+    </section>
+    <Footer/>
     </div>
   );
 }

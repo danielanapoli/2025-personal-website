@@ -34,7 +34,7 @@ function Home() {
                 I have a passion for <strong>inclusive design</strong> with specialties in accessibility, usable security, and privacy.
               </p>
               <p>
-                When I'm not geeking out about data, you'll find me working on fun coding projects, hiking in the woods, gardening, reading sci-fi novels, or playing MTG.
+                When I'm not geeking out about data, you'll find me coding, hiking in the woods, gardening, reading sci-fi novels, or playing MTG.
               </p>
               <br/>
             </Col>

@@ -107,8 +107,7 @@ function IndustryAutomation() {
           </Container>
       </section>
       <Footer/>
-      <Row><Col className='text-center'><p class='smaller-text'>Icon credits to <a href="https://www.flaticon.com/authors/freepik" target='_blank' rel='noopener noreferrer' title="A website dedicated to royalty-free icons. Opens in new tab.">Freepik</a>.</p></Col></Row>
-    </div>
+     </div>
   );
 }
 

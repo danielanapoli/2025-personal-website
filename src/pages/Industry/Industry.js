@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
 
 import NavBar from '../../components/navbar';
@@ -31,25 +32,22 @@ function Industry() {
               </Col>
             </Row>
             <br/>            
-            <Row className="justify-content-md-center">
-              <Col sm="auto" md={5} lg={5}  className='d-flex justify-content-center mb-3'>
-                <Card style={{ width: '80%' }} bg="light" className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/project.png`} />
-                  <Card.Body>
-                    <Card.Title>Requirements Analysis</Card.Title>
-                    <Card.Text>
-                      Explored user needs and pain points. Formulated actionable recommendations to guide the direction of future design work.  
-                    </Card.Text>
-                    <Card.Subtitle>Qualitative methods</Card.Subtitle>
-                    <Card.Text>
-                      user interviews, stakeholder interviews, journey mapping, cross-department focus groups, design studio workshops
-                    </Card.Text>
-                  <Button variant="secondary" href="/#/industry/requirements">Read more</Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col sm="auto" md={5} lg={5}  className='d-flex justify-content-center mb-3'>
-                <Card style={{ width: '80%' }} bg="light" className='border-0'>
+            <Row fluid className="justify-content-md-center">
+                <CardGroup>
+                  <Card style={{ width: '100%' }} bg="light" className='border-0'>
+                    <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/project.png`} />
+                    <Card.Body>
+                      <Card.Title>Requirements Analysis</Card.Title>
+                      <Card.Text>
+                        Explored user needs and pain points. Formulated actionable recommendations to guide the direction of future design work.  
+                      </Card.Text>
+                      <Card.Subtitle>Qualitative methods</Card.Subtitle>
+                      <Card.Text>
+                        user interviews, stakeholder interviews, journey mapping, cross-department focus groups, design studio workshops
+                      </Card.Text>
+                    <Button variant="secondary" href="/#/industry/requirements">Read more</Button>
+                    </Card.Body>
+                  </Card>                <Card style={{ width: '100%' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} />
                   <Card.Body>
                     <Card.Title>Automatic Userbase Segmentation</Card.Title>
@@ -63,9 +61,7 @@ function Industry() {
                   <Button variant="secondary" href="/#/industry/automation">Read more</Button>
                   </Card.Body>
                 </Card>
-              </Col>
-              <Col sm="auto" md={5} lg={5} className='d-flex justify-content-center mb-3'>
-                <Card style={{ width: '80%' }} bg="light" className='border-0'>
+                <Card style={{ width: '100%' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/statistics.png`} />
                   <Card.Body>
                     <Card.Title>Usability Benchmarking</Card.Title>
@@ -79,9 +75,7 @@ function Industry() {
                   <Button variant="secondary" href="/#/industry/benchmarking">Read more</Button>
                   </Card.Body>
                 </Card>
-              </Col>
-              <Col sm="auto" md={5} lg={5} className='d-flex justify-content-center mb-3'>
-                <Card style={{ width: '80%' }} bg="light"  className='border-0'>
+                <Card style={{ width: '100%' }} bg="light"  className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} />
                   <Card.Body>
                     <Card.Title>Exploring Design Workflows</Card.Title>
@@ -95,7 +89,7 @@ function Industry() {
                   <Button variant="secondary" href="/#/industry/workflows" disabled>Read more</Button>
                   </Card.Body>
                 </Card>
-              </Col>              
+              </CardGroup>         
             </Row>
             <br/>
           </Container>
