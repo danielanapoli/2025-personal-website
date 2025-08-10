@@ -24,7 +24,7 @@ function Industry() {
                 <h1>Industry Portfolio</h1>
                 <p>
                   Most recent high-impact usability research that I've done with UX teams. 
-                  More details about my work experience are available on my <a href="/#/resume" rel="noopener noreferrer" title="A link to Daniela's online resume.">resume</a>. 
+                  More details about my work experience are available on my <a href="/#" rel="noopener noreferrer" title="A link to Daniela's online resume.">resume</a>. 
                   You can also explore my <a href="/#/academic" rel="noopener noreferrer" title="The academic research portfolio page of Daniela's website.">academic projects</a>. 
                   Feel free to connect if you'd like to talk more about anything listed here!
                 </p>
