@@ -47,7 +47,8 @@ function Industry() {
                       </Card.Text>
                     <Button variant="secondary" href="/#/industry/requirements">Read more</Button>
                     </Card.Body>
-                  </Card>                <Card style={{ width: '100%' }} bg="light" className='border-0'>
+                  </Card>                
+                  <Card style={{ width: '100%' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} />
                   <Card.Body>
                     <Card.Title>Persona Automation</Card.Title>

@@ -35,7 +35,7 @@ function IndustryBenchmarking() {
                 <Image width="80%" src={`${process.env.PUBLIC_URL}/img/statistics.png`} alt=""></Image>
               </Col>
             </Row>
-            <Accordion defaultActiveKeys={["0"]} allKeys={["0", "1", "2", "3"]}>
+            <Accordion defaultActiveKeys={["0", "1", "2", "3"]} allKeys={["0", "1", "2", "3"]}>
               <AccordionItem index={0} header={"Objectives"}>
                 <p id="accordion-content">
                   The <strong>Canadian Institute for Health Information</strong> (CIHI) needed to...
