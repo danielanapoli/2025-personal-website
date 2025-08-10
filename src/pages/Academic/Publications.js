@@ -33,14 +33,10 @@ function AcademicPublications() {
               <Badge bg="secondary">Extended Abstract</Badge> <Badge bg="secondary">Presentation</Badge>
               <br/>
               <br/>
-              <p>
-                  When used together, usable security and accessibility principles can help shape web experiences that are safer for screen reader users with visual disabilities.
-                  This short paper summarizes the development of ACCUS heuristics and high-level findings from a heuristic evaluation of 10 websites.          
-                <br/>
-                <br/>
-                <strong>Downloads:</strong> 362<br/>
-                <strong>Citations:</strong> 24<br/>
-              </p>
+              <p>Usable security and web accessibility are often treated as separate issues. Existing research does not adequately address how users with vision loss secure their online experiences.</p>
+              <p>We created heuristics that merge both fields and evaluated ten websites, uncovering multiple issues that prevent users from following standard security advice.</p>
+              <p><strong>Downloads:</strong> 362<br/></p>
+              <p><strong>Citations:</strong> 24<br/></p>
             </Col>
             <Col md={4}>
               <div className='smaller-div'>
@@ -56,14 +52,10 @@ function AcademicPublications() {
               <Badge bg="secondary">Full-paper</Badge> <Badge bg="secondary">Presentation</Badge>
               <br/>
               <br/>
-             <p>
-                  Remote healthcare technology includes devices that can help people take care of their health and well-being outside of traditional clinical settings. 
-                  This paper dives into a Canada-wide survey on how users' perspectives on remote healthcare technology can vary depending on age and health context.              
-                  <br/>
-                  <br/>
-                <strong>Downloads:</strong> 177<br/>
-                <strong>Citations:</strong> 1<br/>
-              </p>
+             <p>Remote healthcare technology enhances access to quality care and improves diagnoses through continuous monitoring.</p>
+             <p>We surveyed 384 people in Canada aged 20 to 93 years old to explore participants’ comfort with data collection, sharing preferences, and potential privacy concerns related to remote healthcare technology. We explore these topics within the context of various healthcare scenarios including health emergencies and managing chronic health conditions.</p>
+             <p><strong>Downloads:</strong> 177</p>
+             <p><strong>Citations:</strong> 1</p>
             </Col>
             <Col md={4}>
               <div className='smaller-div'>
@@ -78,13 +70,10 @@ function AcademicPublications() {
               <a href="https://link.springer.com/chapter/10.1007/978-3-031-94159-7_24" target="_blank" rel="noopener noreferrer" title="A link to the Springer research database. Opens in a new tab."><h3>Helpful but Terrifying: Older Adults’ Perspectives of AI in Remote Healthcare Technology</h3></a>
               <Badge bg="secondary">Poster</Badge> <Badge bg="secondary">Presentation</Badge>
               <br/><br/>
-              <p>
-                  While some older adults are interested in adopting remote healthcare technology with AI features, they also feel deeply concerned about their safety and privacy.
-                  This poster focuses on AI-related findings within a larger interview study that will be published soon.              
-                  <br/> <br/>
-                <strong>Downloads:</strong> 218<br/>
-                <strong>Citations:</strong> 0<br/>
-              </p>
+              <p>Canada is prioritizing digital healthcare solutions to help address staffing shortages, access inequities, and the needs of an aging population where remote healthcare can be critical for sustaining specialized and home care services.</p>
+              <p>We interviewed 21 Canadians aged 65 to 87 with chronic health conditions about remote healthcare technology. They were interested in AI features but had concerns about safety and privacy. While they recognized that AI integration is inevitable, they felt powerless to avoid AI-driven solutions when seeking care.</p>
+              <p><strong>Downloads:</strong> 218</p>
+              <p><strong>Citations:</strong> 0</p>
             </Col>
             <Col md={4}>
               <div className='smaller-div'>
@@ -99,13 +88,11 @@ function AcademicPublications() {
             <a href="https://www.usenix.org/conference/soups2021/presentation/napoli" target="_blank" rel="noopener noreferrer" title="A link to the USENIX website. Opens in a new tab."><h3>"I'm Literally Just Hoping This Will Work:'' Obstacles Blocking the Online Security and Privacy of Users with Visual Disabilities</h3></a>
               <Badge bg="secondary">Full-paper</Badge> <Badge bg="secondary">Presentation</Badge>
               <br/><br/>
-              <p>
-                Even when using screen-reading technology, people with visual disabilities are not always given critical privacy information while browsing online. 
-                This paper details ethnographic findings and design recommendations on improving security and privacy warnings for users with visual disabilities. 
-                <br/><br/>
-                <strong>Downloads:</strong> N/A<br/>
-                <strong>Citations:</strong> 29<br/>
-              </p>
+              <p>To manage security and privacy threats effectively, users need to perceive relevant information. However, accessibility barriers prevent users with visual disabilities from accessing this information, which can lead to misinterpretations of their security and privacy.</p>
+              <p>We studied how these users protect their online security by observing their interactions with Gmail, Amazon, and a phishing site mimicking CNIB, a well-known organization. We also conducted semi-structured interviews to understand their real-world concerns.</p>
+              <p>Our analysis identified serious usability issues that caused risky behaviors or compromises between accessibility and security, particularly when accessibility software like JAWS hindered risk identification. We outlined four states of security and privacy experienced during sensitive tasks and provided design recommendations to improve communication of security information for users with visual disabilities.</p>
+              <p><strong>Downloads:</strong> N/A</p>
+              <p><strong>Citations:</strong> 29</p>
             </Col>
             <Col md={4}>
               <YoutubeEmbed embedId="wPes4YF4bxY" />
@@ -117,13 +104,11 @@ function AcademicPublications() {
             <Col>
               <a href="https://www.usenix.org/conference/soups2020/presentation/napoli" target="_blank" rel="noopener noreferrer" title="A link to the USENIX website. Opens in a new tab."><h3>Something Doesn’t Feel Right: Using Thermal Warnings to Improve User Security Awareness</h3></a>
               <Badge bg="secondary">Extended Abstract</Badge> <Badge bg="secondary">Presentation</Badge>
-              <p>
-                A lot of security warnings are pop-ups or colour-coded icons. But, what if you could <em>feel</em> the security of a website? 
-                This poster presents NoViz-Thermal, an Arduino-based prototype for communicating TLS certificates through heat warnings. 
-                <br/><br />
-                <strong>Downloads:</strong> N/A<br/>
-                <strong>Citations:</strong> 4<br/>
-              </p>
+              <br/><br/>
+              <p>Embodied cognition posits that understanding is closely linked to the environment and physical senses. We explored a new method to enhance security awareness through thermal notifications.</p>
+              <p>In this paper, we present our system, NoViz-Thermal, and evaluate its effectiveness in communicating TLS certificate security. We identified accessibility and usability issues but believe that thermal stimulation can boost users' confidence in making security assessments. Additionally, thermal warnings may address the limitations of visual alerts and the challenges posed by display-less IoT technology.</p>
+              <p><strong>Downloads:</strong> N/A</p>
+              <p><strong>Citations:</strong> 4</p>
             </Col>
             <Col md={4}>
               <YoutubeEmbed embedId={"c_swgoqTOw8"}/>
