@@ -1,24 +1,38 @@
 import '../styles/index.css';
+import '../styles/App.css';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Badge from 'react-bootstrap/Badge';
 import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
 
 import NavBar from '../components/navbar';
 import { SkipToContentLink } from '../SkipLink';
 import { Link } from 'react-router-dom';
+import { useRef } from 'react';
+import { useReactToPrint } from 'react-to-print';
 
 function Resume() {
+
+const printableContentElement = useRef();
+
+const reactToPrintFn = useReactToPrint({
+        contentRef: printableContentElement,
+        documentTitle: "Daniela Napoli Resume"
+      });
+
   return (
     <div className="Resume">
       <SkipToContentLink/>
       <NavBar/>
       <br/>
-      <section id="content">
-        <Container fluid="md">       
+      <Container fluid="md">
+      <Button variant="light" className="print-button" onClick={() => reactToPrintFn()}>Printer-friendly version</Button>
+      <section id="content" ref={printableContentElement}>  
           <Row className='text-center'>
+            <br/>
             <h1>Daniela Napoli</h1>
             <p>
               Ontario, Canada
@@ -193,8 +207,8 @@ function Resume() {
             <Col className="text-end" md={3}>December 2019</Col>
           </Row>
           <br/>
-        </Container>
-      </section>
+        </section>
+      </Container>
     </div>
   );
 }
