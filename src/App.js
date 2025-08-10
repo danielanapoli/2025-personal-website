@@ -16,13 +16,15 @@ import IndustryRequirements from './pages/Industry/Requirements.js'
 import IndustryWorkflows from './pages/Industry/Workflows.js'
 import Contact from './pages/Contact.js';
 import SideProjects from './pages/SideProjects.js';
+import ScrollToTop from "./ScrollToTop.js";
 
 import './styles/App.css';
 
 function App() {
   return (
     <Router>
-    {/*Implementing Routes for respective Path */}
+      <ScrollToTop />
+      {/*Implementing Routes for respective Path */}
       <Routes>
           <Route path="/2025-personal-website" element={<Home />} />
           <Route path="/" element={<Home />} />
