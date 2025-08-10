@@ -37,7 +37,7 @@ function Academic() {
             <Card style={{ width: '100%' }} bg="light" className='border-0'>
               <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/news.png`}/>
               <Card.Body>
-                <Card.Title>Publications</Card.Title>
+                <Card.Title>Paper Publications</Card.Title>
                 <Card.Text>
                   Samples of some peer-reviewed contributions to academic literature on human-centered design and usable security.
                 </Card.Text>
@@ -47,7 +47,7 @@ function Academic() {
             <Card style={{ width: '100%' }} bg="light" className='border-0'>
               <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/microphone.png`}/>
               <Card.Body>
-                <Card.Title>Talks</Card.Title>
+                <Card.Title>Talks and Workshops</Card.Title>
                 <Card.Text>
                   Highlights from some of my invited talks and presentations at HCI conferences and workshops.
                 </Card.Text>

@@ -18,9 +18,9 @@ function navBar(){
             <NavDropdown title="Industry" id="industry-dropdown">
               <NavDropdown.Item href="/#/industry">Overview</NavDropdown.Item>
               <NavDropdown.Divider/>
-              <NavDropdown.Item href="/#/industry/automation">Persona automation</NavDropdown.Item>
-              <NavDropdown.Item href="/#/industry/benchmarking">UX Benchmarking</NavDropdown.Item>
               <NavDropdown.Item href="/#/industry/requirements">Requirements discovery</NavDropdown.Item>
+              <NavDropdown.Item href="/#/industry/automation">Persona automation</NavDropdown.Item>
+              <NavDropdown.Item href="/#/industry/benchmarking">Usability benchmarking</NavDropdown.Item>
               <NavDropdown.Item href="/#/industry/workflows">Workflow analysis</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Academic" id="academic-dropdown">

@@ -37,7 +37,7 @@ function Industry() {
                   <Card style={{ width: '100%' }} bg="light" className='border-0'>
                     <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/project.png`} />
                     <Card.Body>
-                      <Card.Title>Requirements Analysis</Card.Title>
+                      <Card.Title>Requirements Discovery</Card.Title>
                       <Card.Text>
                         Explored user needs and pain points. Formulated actionable recommendations to guide the direction of future design work.  
                       </Card.Text>
@@ -50,7 +50,7 @@ function Industry() {
                   </Card>                <Card style={{ width: '100%' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} />
                   <Card.Body>
-                    <Card.Title>Automatic Userbase Segmentation</Card.Title>
+                    <Card.Title>Persona Automation</Card.Title>
                     <Card.Text>
                       Created an automated module for processing user data and website metadata to thematically group insights and inform persona implementation.
                     </Card.Text>
@@ -78,7 +78,7 @@ function Industry() {
                 <Card style={{ width: '100%' }} bg="light"  className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} />
                   <Card.Body>
-                    <Card.Title>Exploring Design Workflows</Card.Title>
+                    <Card.Title>Analyzing Design Workflows</Card.Title>
                     <Card.Text>
                       Investigated design, development, and product manager workflows to uncover challenges. Formulated recommendations for cross-functional improvement.
                     </Card.Text>
