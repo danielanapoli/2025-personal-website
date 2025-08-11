@@ -23,11 +23,11 @@ function IndustryAutomation() {
           <Breadcrumb>
             <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
             <Breadcrumb.Item href="/#/industry">Industry Portfolio</Breadcrumb.Item>
-            <Breadcrumb.Item active>Automatic Userbase Segmentation</Breadcrumb.Item>
+            <Breadcrumb.Item active>Persona Automation</Breadcrumb.Item>
           </Breadcrumb>
             <Row>
               <Col>
-              <h1>Automatic Userbase Segmentation</h1>
+              <h1>Persona Automation</h1>
               </Col>
             </Row>
             <br/><br/>

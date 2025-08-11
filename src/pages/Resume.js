@@ -135,7 +135,7 @@ const reactToPrintFn = useReactToPrint({
                 </ul>
                 <li>Packaged and presented key findings at internal stakeholder meetings and an internship-related conference</li>
               </ul>
-              {/* <Alert variant='light'>💡 Featured project: <a target="_blank" rel="noopener noreferrer" title="Link to a project page on Daniela's website. Opens in a new tab." href="https://danielanapoli.com/#/industry/workflows">Analyzing Design Workflows</a></Alert> */}
+              <Alert variant='light'>💡 Featured project: <a target="_blank" rel="noopener noreferrer" title="Link to a project page on Daniela's website. Opens in a new tab." href="https://danielanapoli.com/#/industry/workflows">Improving Interdisciplinary Workflows</a></Alert>
             </Col>
             <Col className="text-end" md={3}>May 2019 - December 2019</Col>
           </Row>

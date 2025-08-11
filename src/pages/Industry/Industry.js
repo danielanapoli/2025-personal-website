@@ -33,7 +33,7 @@ function Industry() {
             </Row>
             <br/>            
             <Row fluid className="justify-content-md-center">
-                <CardGroup>
+                <CardGroup> 
                   <Card style={{ width: '100%' }} bg="light" className='border-0'>
                     <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/project.png`} />
                     <Card.Body>
@@ -41,12 +41,26 @@ function Industry() {
                       <Card.Text>
                         Explored user needs and pain points. Formulated actionable recommendations to guide the direction of future design work.  
                       </Card.Text>
-                      <Card.Subtitle>Qualitative methods</Card.Subtitle>
+                      <Card.Subtitle>Qualitative methods:</Card.Subtitle>
                       <Card.Text>
                         user interviews, stakeholder interviews, journey mapping, cross-department focus groups, design studio workshops
                       </Card.Text>
                     <Button variant="secondary" href="/#/industry/requirements">Read more</Button>
                     </Card.Body>
+                  </Card>
+                  <Card style={{ width: '100%' }} bg="light"  className='border-0'>
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} />
+                  <Card.Body>
+                    <Card.Title>Improving Interdisciplinary Workflows</Card.Title>
+                    <Card.Text>
+                      Investigated design, development, and product manager workflows to uncover challenges. Formulated recommendations for cross-functional improvement.
+                    </Card.Text>
+                    <Card.Subtitle>Qualitative methods:</Card.Subtitle>
+                    <Card.Text>
+                      stakeholder interviews, as-is scenario mapping, dot-voting, affinity diagramming, service blueprinting
+                    </Card.Text>
+                  <Button variant="secondary" href="/#/industry/workflows">Read more</Button>
+                  </Card.Body>
                   </Card>                
                   <Card style={{ width: '100%' }} bg="light" className='border-0'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} />
@@ -55,7 +69,7 @@ function Industry() {
                     <Card.Text>
                       Created an automated module for processing user data and website metadata to thematically group insights and inform persona implementation.
                     </Card.Text>
-                    <Card.Subtitle>Technical skills</Card.Subtitle>
+                    <Card.Subtitle>Technical skills:</Card.Subtitle>
                     <Card.Text>
                       Python programming, data scraping, data standardization, natural language processing
                     </Card.Text>
@@ -69,27 +83,13 @@ function Industry() {
                     <Card.Text>
                       Assessed how iterative design updates influenced usability and SEO metrics over time.
                     </Card.Text>
-                    <Card.Subtitle>Mixed methods</Card.Subtitle>
+                    <Card.Subtitle>Mixed methods:</Card.Subtitle>
                     <Card.Text>
                       task-based usability testing, metadata analysis, descriptive statistics, t-tests, ANOVA, chi-square tests, thematic analysis
                     </Card.Text>
                   <Button variant="secondary" href="/#/industry/benchmarking">Read more</Button>
                   </Card.Body>
-                </Card>
-                <Card style={{ width: '100%' }} bg="light"  className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} />
-                  <Card.Body>
-                    <Card.Title>Analyzing Design Workflows</Card.Title>
-                    <Card.Text>
-                      Investigated design, development, and product manager workflows to uncover challenges. Formulated recommendations for cross-functional improvement.
-                    </Card.Text>
-                    <Card.Subtitle>Qualitative methods</Card.Subtitle>
-                    <Card.Text>
-                      stakeholder interviews, journey mapping, affinity diagramming, service blueprinting
-                    </Card.Text>
-                  <Button variant="secondary" href="/#/industry/workflows" disabled>Read more</Button>
-                  </Card.Body>
-                </Card>
+                </Card>                
               </CardGroup>         
             </Row>
             <br/>
