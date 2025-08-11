@@ -10,12 +10,13 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import NavBar from '../../components/navbar';
 import Footer from '../../footer';
 import { Accordion, AccordionItem } from '../../Accordion';
+import { SkipToContentLink } from '../../SkipLink';
 
 
 function IndustryAutomation() {
   return (
     <div className="IndustryAutomation">
-      <a href="#content" class="skip-to-main-link">Skip to content</a>
+      <SkipToContentLink/>
       <NavBar></NavBar>
       <br/> 
       <section id="content">

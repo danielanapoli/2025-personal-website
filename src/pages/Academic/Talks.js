@@ -11,12 +11,13 @@ import SlidesEmbed from '../../SlidesEmbed';
 
 import NavBar from '../../components/navbar';
 import Footer from '../../footer';
+import { SkipToContentLink } from '../../SkipLink';
 
 function AcademicPublications() {
   return (
     <div className="AcademicPublications">
-      <a href="#content" class="skip-to-main-link">Skip to content</a>
-      <NavBar></NavBar>
+      <SkipToContentLink/>
+      <NavBar/>
       <br/> 
       <section id="content">
         <Container>

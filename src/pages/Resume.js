@@ -129,7 +129,7 @@ const reactToPrintFn = useReactToPrint({
                 </ul>
                 <li>Designed and facilitated cross-department design thinking workshops to ideate future solutions in addressing design workflow challenges, including:</li>
                 <ul>
-                  <li>As-Is Scneario Mapping</li>
+                  <li>As-Is Scenario Mapping</li>
                   <li>Value Proposition Analysis</li>
                   <li>Writing Need Statements</li>
                 </ul>
