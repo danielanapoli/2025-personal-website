@@ -17,7 +17,7 @@ function IndustryBenchmarking() {
   return (
     <div className="IndustryBenchmarking">
       <SkipToContentLink/>
-      <NavBar></NavBar>
+      <NavBar/>
       <br/> 
       <section id="content">
         <Container fluid="md">

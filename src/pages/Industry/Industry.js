@@ -15,8 +15,8 @@ import { SkipToContentLink } from '../../SkipLink';
 function Industry() {
   return (
     <div className="Industry">
-      <SkipToContentLink />
-      <NavBar></NavBar>
+    <SkipToContentLink/>
+    <NavBar/>
       <br/> 
       <section id="content">
           <Container fluid="md">

@@ -17,7 +17,7 @@ function AcademicPublications() {
   return (
     <div className="AcademicPublications">
       <SkipToContentLink/>
-      <NavBar></NavBar>
+      <NavBar/>
       <br/> 
       <section id="content">
     <Container>

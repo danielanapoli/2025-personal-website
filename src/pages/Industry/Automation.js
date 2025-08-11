@@ -17,7 +17,7 @@ function IndustryAutomation() {
   return (
     <div className="IndustryAutomation">
       <SkipToContentLink/>
-      <NavBar></NavBar>
+      <NavBar/>
       <br/> 
       <section id="content">
           <Container fluid="md">

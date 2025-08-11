@@ -10,13 +10,13 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import NavBar from '../../components/navbar';
 import Footer from '../../footer';
 import { Accordion, AccordionItem } from '../../Accordion';
-import { SkipToContentLink } from '../SkipLink';
+import { SkipToContentLink } from '../../SkipLink';
 
 function IndustryWorkflows() {
   return (
     <div className="IndustryWorkflows">
       <SkipToContentLink/>
-      <NavBar></NavBar>
+      <NavBar/>
       <br/> 
       <section id="content">
           <Container fluid="md">

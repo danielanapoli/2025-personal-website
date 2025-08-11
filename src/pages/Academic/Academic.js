@@ -15,7 +15,7 @@ function Academic() {
   return (
   <div className="Academic">
       <SkipToContentLink />
-      <NavBar></NavBar>
+      <NavBar/>
       <br/>
       <section id="content">
       <Container fluid='md'>
