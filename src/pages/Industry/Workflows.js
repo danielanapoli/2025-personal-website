@@ -48,10 +48,13 @@ function IndustryWorkflows() {
                 </ol>
             </AccordionItem>
             <AccordionItem index={1} header={"Tools"}>
+              <p id="accordion-content">
                 Paper stickies, Mural
+              </p>
             </AccordionItem>
             <AccordionItem index={2} header={"Process"}>
-              <h4>Explore Cross-Departmental Workflows</h4>
+              <p id="accordion-content">
+                <h4>Explore Cross-Departmental Workflows</h4>
                 <ul>
                   <li>Facilitated 15 total 1-on-1 <i>As-Is Scenario Mapping</i> workshops with employees, including 5 from the design, development, and product management teams</li>
                   <ul>
@@ -80,13 +83,16 @@ function IndustryWorkflows() {
                   </ul>
                   <li>Packaged research findings and recommendations for organizational leaders</li>                      
                 </ul>    
+              </p>              
             </AccordionItem>
             <AccordionItem index={3} header={"Impact"}>
+              <p id="accordion-content">
               <ul>
                 <li>Clear documentation of interdepartmental workflow processes and associated challenges</li>
                 <li>Data-driven workflow improvement recommendations that have been co-created and validated by internal stakeholders</li>
                 <li>Strengthened sense of understanding and empathy among internal stakeholders on the design, development, and product management teams</li>
               </ul>
+              </p>
             </AccordionItem>
           </Accordion>
         </Container>

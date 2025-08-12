@@ -49,7 +49,6 @@ const reactToPrintFn = useReactToPrint({
                 <li>PhD and MA in Human–Computer Interaction with experience in user-centered design, usable security, and accessibility in various domains</li>
                 <li>Applies 7+ years of mixed-methods research experience (usability testing, heuristic evaluation, interviews, surveys, statistical analysis) to inform research roadmaps and product strategy</li>
                 <li>Leads requirements analysis, collaborating with cross-functional teams to conduct interviews, journey mapping, task analysis, and co-create wireframes aligned with business and user needs</li>
-                <li>Develops automated user segmentation with Python, leveraging data analysis and persona development to deliver scalable insights and support AI integration.</li>
                 <li>Conducts usability benchmarking using task-based testing, A/B testing, and statistical evaluation to measure ROI, guide evidence-based design recommendations, and secure stakeholder buy-in.</li>
               </ul>
             </Col>
@@ -74,7 +73,7 @@ const reactToPrintFn = useReactToPrint({
               <strong>Master of Arts in Human-Computer Interaction</strong><br/>
               Carleton University, Ottawa, Ontario<br/>
               <ul>
-                <li>Thesis focus on usable security for people with visual disabilites; read more at <a href="https://carleton.scholaris.ca/items/b9e26ef6-df12-4cf4-bfea-07a99d045f59" target="_blank" rel="noopener noreferrer" title="Link to Carleton University's Thesis repository">Carleton's repository</a></li>
+                <li>Thesis focus on usable security for people with visual disabilities; read more at <a href="https://carleton.scholaris.ca/items/b9e26ef6-df12-4cf4-bfea-07a99d045f59" target="_blank" rel="noopener noreferrer" title="Link to Carleton University's Thesis repository">Carleton's repository</a></li>
                 <li>Junior member of Carleton's Human Oriented Research in Usable Security <a href="https://chorus.scs.carleton.ca/" target="_blank" rel="noopener noreferrer" title="Link to the Carleton Usable Security research lab. Opens in a new tab.">(CHORUS)</a> lab</li>
               </ul>
             </Col>
@@ -199,7 +198,7 @@ const reactToPrintFn = useReactToPrint({
           <br/>
           <Row>
             <Col md={8}>
-              <strong>Enterprise Design Thinking Co-Creater</strong> <Badge bg="secondary">Certificate</Badge><br/>
+              <strong>Enterprise Design Thinking Co-Creator</strong> <Badge bg="secondary">Certificate</Badge><br/>
               IBM, Ottawa, Ontario<br/>
               <ul>
                 <li>Learn more about the <a href="https://www.ibm.com/design/thinking/page/badges/core-skills#Co-Creator" target="_blank" rel="noopener noreferrer">Co-Creator</a> skillset and badge criteria.</li>
