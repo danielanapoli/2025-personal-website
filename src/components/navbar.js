@@ -26,6 +26,7 @@ function navBar(){
             <NavDropdown title="Academic" id="academic-dropdown">
               <NavDropdown.Item href="/#/academic">Overview</NavDropdown.Item>
               <NavDropdown.Divider/>
+              <NavDropdown.Item href="/#/academic/toolkit">Design toolkit</NavDropdown.Item>
               <NavDropdown.Item href="/#/academic/publications">Paper publications</NavDropdown.Item>
               <NavDropdown.Item href="/#/academic/talks">Talks and workshops</NavDropdown.Item>
             </NavDropdown>

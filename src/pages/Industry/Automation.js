@@ -34,7 +34,7 @@ function IndustryAutomation() {
             <br/><br/>
             <Row className="justify-content-md-center">
               <Col xs="auto" className='text-center'>
-                <Image width="80%" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} alt=""></Image>
+                <Image width="70%" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} alt=""></Image>
               </Col>
             </Row>
             <Accordion defaultActiveKeys={["0", "1", "2", "3"]} allKeys={["0", "1", "2", "3"]}>

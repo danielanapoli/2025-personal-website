@@ -33,7 +33,7 @@ function IndustryWorkflows() {
             <br/><br/>
             <Row className="justify-content-md-center">
               <Col xs="auto" className='text-center'>
-                <Image width="80%" src={`${process.env.PUBLIC_URL}/img/team.png`} alt=""></Image>
+                <Image width="100%" src={`${process.env.PUBLIC_URL}/img/workflow-hero.png`} alt=""></Image>
               </Col>
             </Row>
             <br/>

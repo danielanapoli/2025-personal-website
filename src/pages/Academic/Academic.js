@@ -33,19 +33,28 @@ function Academic() {
         <br/>
         <Row fluid className="justify-content-md-center">
           <CardGroup>
-            <Card style={{ width: '100%' }} bg="" className='border-0'></Card>
-            <Card style={{ width: '100%' }} bg="light" className='border-0'>
-              <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/news.png`}/>
+            <Card style={{ width: '100%' }} bg="light" className='border-0 mb-4 p-4'>
+               <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/tool.png`} className='p-2'/>
+              <Card.Body>
+                <Card.Title>Remote Healthcare Technology<br/>Design Toolkit</Card.Title>
+                <Card.Text>
+                  Samples of our design toolkit to guide the development of remote healthcare technology for older adults.
+                </Card.Text>
+                <Button variant="secondary" href="/#/academic/toolkit">Read more</Button>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: '100%' }} bg="light" className='border-0 mb-4 p-4'>
+              <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/paper.png`} className='p-2'/>
               <Card.Body>
                 <Card.Title>Paper Publications</Card.Title>
                 <Card.Text>
-                  Samples of some peer-reviewed contributions to academic literature on human-centered design and usable security.
+                  Some peer-reviewed contributions to academic literature on human-centered design and usable security.
                 </Card.Text>
                 <Button variant="secondary" href="/#/academic/publications">Read more</Button>
               </Card.Body>
             </Card>
-            <Card style={{ width: '100%' }} bg="light" className='border-0'>
-              <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/microphone.png`}/>
+            <Card style={{ width: '100%' }} bg="light" className='border-0 mb-4 p-4'>
+              <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/img/podium.png`} className='p-2'/>
               <Card.Body>
                 <Card.Title>Talks and Workshops</Card.Title>
                 <Card.Text>
@@ -54,7 +63,6 @@ function Academic() {
                 <Button variant="secondary" href="/#/academic/talks">Read more</Button>
               </Card.Body>
             </Card>            
-            <Card style={{ width: '100%' }} bg="" className='border-0'></Card>
           </CardGroup>
         </Row>
       </Container>      

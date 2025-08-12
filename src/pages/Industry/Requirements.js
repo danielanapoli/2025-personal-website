@@ -34,7 +34,7 @@ function IndustryRequirements() {
             <br/><br/>
             <Row className="justify-content-md-center">
               <Col xs="auto" className='text-center'>
-                <Image width="80%" src={`${process.env.PUBLIC_URL}/img/project.png`} alt=""></Image>
+                <Image width="70%" src={`${process.env.PUBLIC_URL}/img/project.png`} alt=""></Image>
               </Col>
             </Row>
             <br/>

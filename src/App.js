@@ -7,6 +7,7 @@ import {
 import Home from './pages/Home.js';
 import Resume from './pages/Resume.js';
 import Academic from './pages/Academic/Academic.js';
+import Toolkit from './pages/Academic/Toolkit.js'
 import AcademicPublications from "./pages/Academic/Publications.js";
 import AcademicTalks from './pages/Academic/Talks.js';
 import Industry from './pages/Industry/Industry.js';
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/academic" element={<Academic />} />
+          <Route path="/academic/toolkit" element={<Toolkit />} />
           <Route path="/academic/publications" element={<AcademicPublications />} />
           <Route path="/academic/talks" element={<AcademicTalks />} />
           <Route path="/industry" element={<Industry />} />

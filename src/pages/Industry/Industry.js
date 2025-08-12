@@ -24,7 +24,7 @@ function Industry() {
               <Col>
                 <h1>Industry Portfolio</h1>
                 <p>
-                  Most recent high-impact usability research that I've done with UX teams. 
+                  Most recent high-impact research that I've done with UX teams. 
                   More details about my work experience are available on my <a href="/#/resume" rel="noopener noreferrer" title="A link to Daniela's online resume.">resume</a>. 
                   You can also explore my <a href="/#/academic" rel="noopener noreferrer" title="The academic research portfolio page of Daniela's website.">academic projects</a>. 
                   Feel free to connect if you'd like to talk more about anything listed here!
@@ -34,12 +34,12 @@ function Industry() {
             <br/>            
             <Row fluid className="justify-content-md-center">
                 <CardGroup> 
-                  <Card style={{ width: '100%' }} bg="light" className='border-0'>
-                    <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/project.png`} />
+                  <Card style={{ width: '100%' }} bg="light" className='border-0 mb-4'>
+                    <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/project.png`} className='p-2'/>
                     <Card.Body>
                       <Card.Title>Requirements Discovery</Card.Title>
                       <Card.Text>
-                        Explored user needs and pain points. Formulated actionable recommendations to guide the direction of future design work.  
+                        Exploring user needs and pain points. Formulating actionable recommendations to guide the direction of future design work.  
                       </Card.Text>
                       <Card.Subtitle>Qualitative methods:</Card.Subtitle>
                       <Card.Text>
@@ -48,12 +48,12 @@ function Industry() {
                     <Button variant="secondary" href="/#/industry/requirements">Read more</Button>
                     </Card.Body>
                   </Card>
-                  <Card style={{ width: '100%' }} bg="light"  className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} />
+                  <Card style={{ width: '100%' }} bg="light"  className='border-0 mb-4'>
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} className='p-2'/>
                   <Card.Body>
                     <Card.Title>Improving Interdisciplinary Workflows</Card.Title>
                     <Card.Text>
-                      Investigated design, development, and product manager workflows to uncover challenges. Formulated recommendations for cross-functional improvement.
+                      Investigating design, development, and product manager workflows to uncover challenges. Formulating recommendations for cross-functional improvement.
                     </Card.Text>
                     <Card.Subtitle>Qualitative methods:</Card.Subtitle>
                     <Card.Text>
@@ -62,12 +62,12 @@ function Industry() {
                   <Button variant="secondary" href="/#/industry/workflows">Read more</Button>
                   </Card.Body>
                   </Card>                
-                  <Card style={{ width: '100%' }} bg="light" className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} />
+                  <Card style={{ width: '100%' }} bg="light" className='border-0 mb-4'>
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} className='p-2'/>
                   <Card.Body>
                     <Card.Title>Persona Automation</Card.Title>
                     <Card.Text>
-                      Created an automated module for processing user data and website metadata to thematically group insights and inform persona implementation.
+                      Creating an automation module for processing user data and website metadata to thematically group insights and inform persona implementation.
                     </Card.Text>
                     <Card.Subtitle>Technical skills:</Card.Subtitle>
                     <Card.Text>
@@ -76,12 +76,12 @@ function Industry() {
                   <Button variant="secondary" href="/#/industry/automation">Read more</Button>
                   </Card.Body>
                 </Card>
-                <Card style={{ width: '100%' }} bg="light" className='border-0'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/statistics.png`} />
+                <Card style={{ width: '100%' }} bg="light" className='border-0 mb-4'>
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/statistics.png`} className='p-2'/>
                   <Card.Body>
                     <Card.Title>Usability Benchmarking</Card.Title>
                     <Card.Text>
-                      Assessed how iterative design updates influenced usability and SEO metrics over time.
+                      Assessing how iterative design updates influenced usability and SEO metrics over time.
                     </Card.Text>
                     <Card.Subtitle>Mixed methods:</Card.Subtitle>
                     <Card.Text>
