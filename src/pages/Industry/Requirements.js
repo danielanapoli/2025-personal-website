@@ -38,7 +38,7 @@ function IndustryRequirements() {
                   <Col>
                     <h2>Users need...</h2>
                     <p id="hero-text">
-                      data about their clinic so that they can gauge their performance and guide future programs. 
+                      to gauge their performance and guide future<br/>improvement programs. 
                       <br/><br/>
                       <Badge bg="secondary">The Canadian Institute for Health Information (CIHI)</Badge> 
                     </p>
@@ -47,9 +47,9 @@ function IndustryRequirements() {
                     <Alert variant='warning'>
                       <AlertHeading><h2>Research Impact</h2></AlertHeading>
                       <ul id="accordion-content">
-                        <li>Delivered comprehensive and data-driven vision statements</li>
+                        <li>Delivered comprehensive data-driven vision statements for<br/>future CIHI offerings</li>
                         <li>Streamlined user and organization needs</li>
-                        <li>Enhanced stakeholder alignment on future organizational goals</li>
+                        <li>Enhanced stakeholder alignment and buy-in</li>
                       </ul>
                     </Alert> 
                   </Col>
@@ -61,7 +61,7 @@ function IndustryRequirements() {
                       <p id="accordion-content">
                         Users struggle to <strong>consolidate</strong> data about their clinic on the CIHI website.
                         <br/><br/>
-                        Wrangling this data is not straightforward. Data is split among different departments at the organization. Each department has unique processes in managing and publishing their data.
+                        Wrangling this data to put on the CIHI website is not straightforward. Data is split among different departments, and each department has unique processes for managing their data.
                       </p>                  
                       </AccordionItem>
                     <AccordionItem index={1} header={"Process"}>

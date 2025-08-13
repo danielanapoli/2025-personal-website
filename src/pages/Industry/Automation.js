@@ -46,7 +46,7 @@ function IndustryAutomation() {
                     <Alert variant='warning'>
                       <AlertHeading><h2>Research Impact</h2></AlertHeading>
                       <ul id="accordion-content">
-                          <li>Improved website architecture and data, tool findability</li>
+                          <li>Enhanced users personalization and improved data relevancy</li>
                           <li>Increased team productivity and reduced project timelines by 2 weeks</li> 
                           <li>Spearheaded automation integration initiaitves across the organization</li>                 
                       </ul>
@@ -58,10 +58,10 @@ function IndustryAutomation() {
                   <Accordion defaultActiveKeys={["0", "1", "2"]} allKeys={["0", "1", "2"]}>
                     <AccordionItem index={0} header={"Problem"}>
                         <p id="accordion-content">
-                          Users struggle to <strong>quickly assess</strong> what CIHI data would be most useful for their projects.
+                          Users struggle to <strong>assess</strong> how CIHI data could be useful for their projects.
                         </p>
                         <p id="accordion-content">
-                          Customizing user experiences is not straightforward. Many users have multiple roles and their needs in CIHI tools can dynamically change per visit.
+                          Customizing user experiences to improve relevancy is not straightforward. Many users have multiple roles and their needs in CIHI tools can dynamically change per visit.
                         </p>
                     </AccordionItem>
                   <AccordionItem index={1} header={"Process"}>
