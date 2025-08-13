@@ -43,22 +43,21 @@ function Toolkit() {
                         Focusing on what users need while creating technology can be tough. This can be especially challenging while multidisciplinary teams, filled with people who have different expertise and priorities, are trying to find common ground.
                     </p>
                     <p>
-                        By highlighting what older adults need and expect in terms of privacy when it comes to the technology they need to manage their health and well-being,
-                        the toolkit can help teams dive into these needs when making solutions targeted to this demographic.
+                        This toolkit focuses on what older adults need in terms of privacy when using technology to manage their health and well-being. By addressing these needs, the toolkit helps teams develop solutions that are specifically designed for this group.
                     </p>
                     <h2>Features</h2>
                     <p>
                         The toolkit has 15 validated UX tools, including:
                         <ul>
                             <li><strong>How-Tos</strong> to help decipher how the toolkit can help anyone in UX</li>
-                            <li><strong>Personas</strong> to zero-in on how different older adults have unique needs, privacy expectations, and opportunities</li>
-                            <li><strong>Emapthy maps</strong> to unpack older adults' emotions, thoughts, and behaviours with remote healthcare tech</li>
+                            <li><strong>Personas</strong> to zero in on how different older adults have unique needs, privacy expectations, and opportunities</li>
+                            <li><strong>Empathy maps</strong> to unpack older adults' emotions, thoughts, and behaviours with remote healthcare tech</li>
                         </ul>
                     </p>
                     <h2>Data-Driven Content</h2>
                     <p>
-                        The toolkit is built on rich survey and interview data (see <a href="/#/academic/publications">Publications</a>) and it has been assessed by professionals experienced in healthcare technology and older adults. 
-                        Feedback from experts shows that our toolkit can help UX research, designers, and developers to...
+                        The toolkit is built on rich survey and interview data (see <a href="/#/academic/publications">Publications</a>), and it has been assessed by professionals experienced in healthcare technology and older adults. 
+                        Experts' feedback shows that our toolkit can help UX researchers, designers, and developers to...
                     <ol>
                         <li><strong>Build better understanding and empathy</strong> for the specific needs older adults have for remote healthcare tech.</li>
                         <li><strong>Stay focused on those needs</strong> while brainstorming potential solutions tailored for this group.</li>
@@ -66,7 +65,7 @@ function Toolkit() {
                     </p>
                     <h2>Coming Soon</h2>
                     <p>
-                        Check back soon for the full details on the toolkit including more information on how the toolkit was developed with the input from SMEs, and our future efforts to better shape remote healthcare technology something that older adults really need.
+                        Check back soon for the full details on the toolkit, including more information on how the toolkit was made and what we plan to do to help remote healthcare technology better serve older adults.
                     </p>
                  </Col>
                 <Col md={5}>

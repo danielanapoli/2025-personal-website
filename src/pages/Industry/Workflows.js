@@ -86,7 +86,8 @@ function IndustryWorkflows() {
                             <li>Most critical collaboration processes to focus on</li>
                             <li>Major pain points</li>
                             <li>Key opportunities for improvement</li>
-                          </ul>                      </ul>
+                          </ul>                      
+                        </ul>
                         <h4>Rally Stakeholder Buy-in</h4>
                         <ul>
                           <li>Led a 2-hour seminar involving 20 participants from the design, development, and product management teams</li>

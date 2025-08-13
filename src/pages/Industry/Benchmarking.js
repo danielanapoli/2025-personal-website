@@ -34,7 +34,7 @@ function IndustryBenchmarking() {
               </Col>
             </Row>
              <br/>
-            <Row>
+            <Row fluid>
               <Col>
                 <h2>Users need...</h2>
                 <p id="hero-text">

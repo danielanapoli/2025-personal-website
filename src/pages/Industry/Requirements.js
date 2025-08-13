@@ -47,7 +47,7 @@ function IndustryRequirements() {
                     <Alert variant='warning'>
                       <AlertHeading><h2>Research Impact</h2></AlertHeading>
                       <ul id="accordion-content">
-                        <li>Delivered comprehensive data-driven vision statements for<br/>future CIHI offerings</li>
+                        <li>Delivered comprehensive data-driven vision statements for future CIHI offerings</li>
                         <li>Streamlined user and organization needs</li>
                         <li>Enhanced stakeholder alignment and buy-in</li>
                       </ul>

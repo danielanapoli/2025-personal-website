@@ -3,7 +3,9 @@ import '../styles/App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
+import Button from 'react-bootstrap/Button';
 
 import NavBar from '../components/navbar';
 import Footer from '../footer';
@@ -34,12 +36,43 @@ function Home() {
                 I have a passion for <strong>inclusive design</strong> with specialties in accessibility, usable security, and privacy.
               </p>
               <p>
-                When I'm not geeking out about data, you'll find me coding, hiking in the woods, gardening, reading sci-fi novels, or playing MTG.
+                Thank you for spending some time here. Each case study highlights the full arc of research: the framing of key questions, the selection of appropriate methodologies, and the actionable insights that drove product decisions. If you have any questions, feel free to email me at <a href="mailto:hello@danielanapoli.com">hello@danielanapoli.com</a>.
               </p>
               <br/>
             </Col>
-            <Col sm="auto" xs="auto" md="auto" lg="6" className='text-center'>
-              <Image width="50%" alt="Photo of smiling Daniela wearing a buckethat" src={`${process.env.PUBLIC_URL}/img/daniela.jpg`} roundedCircle thumbnail/>
+          </Row>
+          <Row className="justify-content-md-center">
+            <Col xs lg="10">
+              <CardGroup className='align-items-stretch'>
+                <Card bg='light' style={{ width: '100%' }} className='border-0 m-4'>
+                  <Card.Body className="text-center">
+                    <Card.Title>Industry Projects</Card.Title>
+                    <Card.Text>
+                      Driving data-driven changes to products and teams. My industry projects transform user experiences into actionable insights.
+                    </Card.Text>
+                    <Card.Link href="/#/industry">Read more</Card.Link>
+                  </Card.Body>
+                  
+                </Card>
+                <Card  bg='light'  style={{ width: '100%' }} className='border-0 m-4'>
+                  <Card.Body className="text-center">
+                    <Card.Title>Academic Projects</Card.Title>
+                    <Card.Text>
+                      Uncovering novel insights through rigorous research methods. My published works contribute to the HCI knowledge base.
+                    </Card.Text>
+                    <Card.Link href="/#/academic">Read more</Card.Link>
+                  </Card.Body>                
+                </Card>
+                <Card  bg='light'  style={{ width: '100%' }} className='border-0 m-4'>
+                  <Card.Body className="text-center">
+                    <Card.Title>Design Toolkit</Card.Title>
+                    <Card.Text>
+                      Culminating my graduate research, the design toolkit offers guidance in making remote healthcare technology for older adults.
+                    </Card.Text>
+                    <Card.Link href="/#/academic/toolkit">Read more</Card.Link>
+                  </Card.Body>
+                </Card>
+              </CardGroup>
             </Col>
           </Row>
         <br/>

@@ -46,7 +46,7 @@ function IndustryAutomation() {
                     <Alert variant='warning'>
                       <AlertHeading><h2>Research Impact</h2></AlertHeading>
                       <ul id="accordion-content">
-                          <li>Enhanced users personalization and improved data relevancy</li>
+                          <li>Enhanced user experience personalization by improving data relevancy</li>
                           <li>Increased team productivity and reduced project timelines by 2 weeks</li> 
                           <li>Spearheaded automation integration initiaitves across the organization</li>                 
                       </ul>
