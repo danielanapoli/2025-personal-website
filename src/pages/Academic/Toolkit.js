@@ -81,14 +81,14 @@ function Toolkit() {
             </Row>
             <br/>
             <Row className="align-items-center">
-                <Col>                    
-                    <Image src={`${process.env.PUBLIC_URL}/img/carleton-logo.png`} width={'90%'} />
+                <Col className="text-center">                    
+                    <Image src={`${process.env.PUBLIC_URL}/img/carleton-logo.png`} width={'80%'} />
                 </Col>
-                <Col>  
+                <Col className="text-center">  
+                    <Image src={`${process.env.PUBLIC_URL}/img/nrc-logo.png`} width={'60%'} />
+                </Col>
+                <Col className="text-center">  
                     <Image src={`${process.env.PUBLIC_URL}/img/hc2p-logo.png`} width={'80%'} />
-                </Col>
-                <Col>  
-                    <Image src={`${process.env.PUBLIC_URL}/img/nrc-logo.png`} width={'50%'} />
                 </Col>
             </Row>
         </Container>
