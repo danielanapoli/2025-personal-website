@@ -57,7 +57,7 @@ function Toolkit() {
                     </p>
                     <h2>Data-Driven Content</h2>
                     <p>
-                        The toolkit is built on rich survey and interview data (see <Link to="/#/academic/publications">Publications</Link>) and it has been assessed by professionals experienced in healthcare technology and older adults. 
+                        The toolkit is built on rich survey and interview data (see <a href="/#/academic/publications">Publications</a>) and it has been assessed by professionals experienced in healthcare technology and older adults. 
                         Feedback from experts shows that our toolkit can help UX research, designers, and developers to...
                     <ol>
                         <li><strong>Build better understanding and empathy</strong> for the specific needs older adults have for remote healthcare tech.</li>

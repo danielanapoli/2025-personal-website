@@ -27,12 +27,12 @@ export function Accordion({defaultActiveKeys, allKeys, children}) {
 
   return (
       <>
-        <Row className='justify-content-end' xs="auto">
-          <Col><Button variant='light' onClick={handleExpandAll}>Expand all</Button></Col>
-          <Col><Button variant='light' onClick={handleCollapseAll}>Collapse all</Button></Col>
-        </Row>
         <br/>
-        <Row className="justify-content-md-center">
+        <Row className='justify-content-end' xs="auto">
+          <Col><Button variant='link' onClick={handleExpandAll}>Expand all</Button></Col>
+          <Col><Button variant='link' onClick={handleCollapseAll}>Collapse all</Button></Col>
+        </Row>
+        <Row>
           <Col>
             <BootstrapAccordion activeKey={activeKeys} alwaysOpen>
               {React.Children.map(children, child => {

@@ -4,14 +4,15 @@ import '../../styles/App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Alert from 'react-bootstrap/Alert';
+import AlertHeading from 'react-bootstrap/AlertHeading';
+import Badge from 'react-bootstrap/Badge';
 
 import NavBar from '../../components/navbar';
 import Footer from '../../footer';
 import { Accordion, AccordionItem } from '../../Accordion';
 import { SkipToContentLink } from '../../SkipLink';
-
 
 function IndustryAutomation() {
   return (
@@ -31,80 +32,91 @@ function IndustryAutomation() {
               <h1>Persona Automation</h1>
               </Col>
             </Row>
-            <br/><br/>
-            <Row className="justify-content-md-center">
-              <Col xs="auto" className='text-center'>
-                <Image width="70%" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} alt=""></Image>
-              </Col>
-            </Row>
-            <Accordion defaultActiveKeys={["0", "1", "2", "3"]} allKeys={["0", "1", "2", "3"]}>
-              <AccordionItem index={0} header={"Objectives"}>
-                <p id="accordion-content">
-                  The <strong>Canadian Institute for Health Information</strong> (CIHI) needed to...
-                </p>
-                <ol id="accordion-content">
-                  <li>Map <i>exit-intent</i> survey responses to the organization's persona framework</li>
-                  <li>Update personas to align with mapped responses</li>
-                </ol>
-                *Note: This analysis was initially planned to be completed manually with Excel.  
-                With my programming background, I identified an opportunity to improve the project's efficiency and accuracy with Python. 
-                As a result, the project was completed <strong>weeks sooner</strong> than anticipated. Final deliverables were able to <strong>extend far beyond</strong> the UX Team.                               
-              </AccordionItem>
-              <AccordionItem index={1} header={"Tools"}>
-                <ul id="accordion-content">
-                  <li>Excel</li>
-                  <li>Python</li>
-                  <li>VS Code</li>
-                </ul>
-              </AccordionItem>
-              <AccordionItem index={2} header={"Process"}>
-                <h4>Data Scrubbing with Python</h4>
-                  <ul id="accordion-content">
-                    <li>Extracted user responses to open-text, demographic questions from survey database</li>
-                    <li>Prepared extracted data for processing
-                      <ul>
-                        <li>Assessed response validity, excluded invalid responses</li>
-                        <li>Adjusted for spelling variations</li>
-                        <li>Translated French-language responses</li>
+            <br/>
+              <Row>
+                  <Col>
+                    <h2>Users need...</h2>
+                    <p id="hero-text">
+                       personalized support for leveraging data and relating tools.
+                      <br/><br/>
+                      <Badge bg="secondary">The Canadian Institute for Health Information (CIHI)</Badge> 
+                    </p>
+                  </Col>
+                  <Col>
+                    <Alert variant='warning'>
+                      <AlertHeading><h2>Research Impact</h2></AlertHeading>
+                      <ul id="accordion-content">
+                          <li>Improved website architecture and data, tool findability</li>
+                          <li>Increased team productivity and reduced project timelines by 2 weeks</li> 
+                          <li>Spearheaded automation integration initiaitves across the organization</li>                 
                       </ul>
-                    </li>
-                  </ul>
-                <h4>Natural Language Processing with Python</h4>
-                  <ul id="accordion-content">
-                    <li>Compiled keyword list from open-text responses relating to persona characteristics</li>
-                    <li>Iteratively categorized respondents per persona</li>
-                    <ul>
-                      <li>Automatically mapped keywords to survey response</li>
-                      <li>Manually assessed unmapped response for potential keyword list improvements</li>
-                      <li>Improved mapping algorithm</li>
+                    </Alert> 
+                  </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Accordion defaultActiveKeys={["0", "1", "2"]} allKeys={["0", "1", "2"]}>
+                    <AccordionItem index={0} header={"Problem"}>
+                        <p id="accordion-content">
+                          Users struggle to <strong>quickly assess</strong> what CIHI data would be most useful for their projects.
+                        </p>
+                        <p id="accordion-content">
+                          Customizing user experiences is not straightforward. Many users have multiple roles and their needs in CIHI tools can dynamically change per visit.
+                        </p>
+                    </AccordionItem>
+                  <AccordionItem index={1} header={"Process"}>
+                    *Note: Before I joined the project, this analysis was planned to be completed manually with Excel.  
+                    With my programming background, I identified an opportunity to leverage automation techniques. 
+                    <br/><br/>
+                    <h4>Data Scrubbing with Python</h4>
+                      <ul id="accordion-content">
+                        <li>Extracted responses to open-text, demographic questions from recent <i>exit-intent</i> survey responses</li>
+                        <li>Cleaned data for processing
+                          <ul>
+                            <li>Assessed response validity, excluded invalid responses</li>
+                            <li>Adjusted for spelling variations</li>
+                            <li>Translated French-language responses</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    <h4>Mapping Users to Personas with Natural Language Processing</h4>
+                      <ul id="accordion-content">
+                        <li>Compiled keyword list from open-text responses relating to persona characteristics</li>
+                        <li>Iteratively categorized respondents per persona</li>
                         <ul>
-                          <li>E.g., Updated word stems, considered medical terminology, and considered vernacular variations</li>
+                          <li>Automatically mapped keywords to survey response</li>
+                          <li>Manually assessed unmapped response for potential keyword list improvements</li>
+                          <li>Improved mapping algorithm</li>
+                            <ul>
+                              <li>E.g., Updated word stems, considered medical terminology, and considered vernacular variations</li>
+                            </ul>
                         </ul>
-                    </ul>
-                    <li>Ended processing when 87% of the survey responses could be accurately categorized</li>
-                  </ul>
-                <h4>Updating the Persona Framework</h4>
-                  <ul id="accordion-content">
-                    <li>Once respondents were categorized, full responses were further analyzed</li>
-                    <li>Validated the existing persona framework</li>
-                    <ul>
-                      <li>E.g., Persona A most often uses the XYZ tool on the website</li>
-                    </ul> 
-                    <li>Extracted new user insights and integrated findings in the persona framework</li>
-                    <ul>
-                      <li>E.g., Persona B is most likely to report XYZ pain points</li>
-                    </ul>
-                  </ul>
-              </AccordionItem>
-              <AccordionItem index={3} header={"Impact"}>
-                <ul id="accordion-content">
-                  <li>Empirical evidence to validate and extend the persona framework</li> 
-                  <li>Quick, easy, reusable module to help map future usability research data and website metadata to the persona framework</li>     
-                  <li>Proof-of-concept for future AI features in the organization's marketing software</li>
-                  <li>Recommendations for organizational alignment on the targeted user base</li>
-                </ul>
-              </AccordionItem>
-            </Accordion>
+                        <li>Ended processing when 87% of the survey responses could be accurately categorized</li>
+                      </ul>
+                    <h4>Expanding the Persona Framework</h4>
+                      <ul id="accordion-content">
+                        <li>Once respondents were categorized, full responses were further analyzed</li>
+                        <li>Validated the existing persona framework using mapped responses</li>
+                        <ul>
+                          <li>E.g., Persona A most often uses the XYZ tool on the website</li>
+                        </ul> 
+                        <li>Extracted new user insights and integrated findings in the persona framework</li>
+                        <ul>
+                          <li>E.g., Persona B is most likely to report XYZ pain points</li>
+                        </ul>
+                        <li>Provided data-driven recommendations for usability improvements to the CIHI website</li>
+                      </ul>
+                    </AccordionItem>
+                    <AccordionItem index={2} header={"Tools"}>
+                      <ul id="accordion-content">
+                        <li>Excel</li>
+                        <li>Python</li>
+                        <li>VS Code</li>
+                      </ul>
+                    </AccordionItem>
+                  </Accordion>
+                </Col>
+              </Row>           
           </Container>
       </section>
       <Footer/>
