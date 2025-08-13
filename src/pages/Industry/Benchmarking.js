@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import Alert from 'react-bootstrap/Alert';
 import AlertHeading from 'react-bootstrap/AlertHeading';
+import Badge from 'react-bootstrap/Badge';
 
 import NavBar from '../../components/navbar';
 import Footer from '../../footer';
@@ -37,7 +38,9 @@ function IndustryBenchmarking() {
               <Col>
                 <h2>Users need...</h2>
                 <p id="hero-text">
-                    to quickly find performance data about their clinic and other comparable clinics. 
+                    to quickly find performance data about their clinic and other comparable clinics.
+                    <br/><br/>
+                    <Badge bg="secondary">The Canadian Institute for Health Information (CIHI)</Badge>  
                 </p>
               </Col>
               <Col>
@@ -71,7 +74,7 @@ function IndustryBenchmarking() {
                               <li>Collaborated with other departments to access additional metadata to support usability test results</li>
                             </ul>
                           </p>
-                        <h5>Data Collection</h5>
+                        <h5>Assess Design Impact on Findability</h5>
                           <p id="accordion-content">
                             <ul>
                               <li>Designed task-based, between-subject usability tests focused on recent usability and SEO changes</li>
