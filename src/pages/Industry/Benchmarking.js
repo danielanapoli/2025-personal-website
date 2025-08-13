@@ -31,17 +31,12 @@ function IndustryBenchmarking() {
               <h1>Usability Benchmarking</h1>
               </Col>
             </Row>
-            <Row className="justify-content-md-center">
-              <Col xs="auto" className='text-center'>
-                <Image width="70%" src={`${process.env.PUBLIC_URL}/img/statistics.png`} alt=""></Image>
-              </Col>
-            </Row>
             <Accordion defaultActiveKeys={["0", "1", "2", "3"]} allKeys={["0", "1", "2", "3"]}>
               <AccordionItem index={0} header={"Objectives"}>
                 <p id="accordion-content">
                   The <strong>Canadian Institute for Health Information</strong> (CIHI) needed to...
                   <ul>
-                    <li>Measure the ROI of recent UX and SEO initiatives</li>
+                    <li>Measure the ROI of recent UX and SEO initiatives in improving the findability of content on their website</li>
                   </ul>
                 </p>
               </AccordionItem>
@@ -86,13 +81,20 @@ function IndustryBenchmarking() {
               <AccordionItem index={3} header={"Impact"}>
                 <p id="accordion-content">
                   <ul>
+                    <li>Increased overall findability of content</li>
                     <li>Empirical evidence to demonstrate the impact of past and current UX and SEO initiatives</li>
                     <li>Cross-departmental alignment on project outcomes</li>
                     <li>Data-driven recommendations for future UX and SEO directions</li>
+                    <li></li>
                   </ul>
                 </p>
               </AccordionItem>
             </Accordion>
+                        <Row className="justify-content-md-center">
+              <Col xs="auto" className='text-center'>
+                <Image width="70%" src={`${process.env.PUBLIC_URL}/img/statistics.png`} alt=""></Image>
+              </Col>
+            </Row>
         </Container>
       </section>
       <Footer/>

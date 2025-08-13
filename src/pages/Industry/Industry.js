@@ -48,20 +48,6 @@ function Industry() {
                     <Button variant="secondary" href="/#/industry/requirements">Read more</Button>
                     </Card.Body>
                   </Card>
-                  <Card style={{ width: '100%' }} bg="light"  className='border-0 mb-4'>
-                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} className='p-2'/>
-                  <Card.Body>
-                    <Card.Title>Improving Interdisciplinary Workflows</Card.Title>
-                    <Card.Text>
-                      Investigating design, development, and product manager workflows to uncover challenges. Formulating recommendations for cross-functional improvement.
-                    </Card.Text>
-                    <Card.Subtitle>Qualitative methods:</Card.Subtitle>
-                    <Card.Text>
-                      stakeholder interviews, as-is scenario mapping, dot-voting, affinity diagramming, service blueprinting
-                    </Card.Text>
-                  <Button variant="secondary" href="/#/industry/workflows">Read more</Button>
-                  </Card.Body>
-                  </Card>                
                   <Card style={{ width: '100%' }} bg="light" className='border-0 mb-4'>
                   <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/pie-chart.png`} className='p-2'/>
                   <Card.Body>
@@ -89,8 +75,22 @@ function Industry() {
                     </Card.Text>
                   <Button variant="secondary" href="/#/industry/benchmarking">Read more</Button>
                   </Card.Body>
-                </Card>                
-              </CardGroup>         
+                </Card>
+                <Card style={{ width: '100%' }} bg="light"  className='border-0 mb-4'>
+                  <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/img/team.png`} className='p-2'/>
+                  <Card.Body>
+                    <Card.Title>Improving Interdisciplinary Workflows</Card.Title>
+                    <Card.Text>
+                      Investigating design, development, and product manager workflows to uncover challenges. Formulating recommendations for cross-functional improvement.
+                    </Card.Text>
+                    <Card.Subtitle>Qualitative methods:</Card.Subtitle>
+                    <Card.Text>
+                      stakeholder interviews, as-is scenario mapping, dot-voting, affinity diagramming, service blueprinting
+                    </Card.Text>
+                  <Button variant="secondary" href="/#/industry/workflows">Read more</Button>
+                  </Card.Body>
+                </Card>                 
+              </CardGroup>  
             </Row>
             <br/>
           </Container>

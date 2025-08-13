@@ -34,6 +34,7 @@ function Toolkit() {
                 <Breadcrumb.Item href="/#/academic">Academic Portfolio</Breadcrumb.Item>
                 <Breadcrumb.Item active>Design Toolkit</Breadcrumb.Item>
             </Breadcrumb>   
+            <br/><br/>
             <h1>Remote Healthcare Technology Design Toolkit</h1>
             <Carousel data-bs-theme="dark" activeIndex={index} onSelect={handleSelect} interval={1800}>
                 <Carousel.Item className='text-center'>

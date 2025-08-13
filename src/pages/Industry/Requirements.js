@@ -4,13 +4,16 @@ import '../../styles/App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Alert from 'react-bootstrap/Alert';
+import Badge from 'react-bootstrap/Badge';
+import Image from 'react-bootstrap/Image';
 
 import NavBar from '../../components/navbar';
 import Footer from '../../footer';
 import { Accordion, AccordionItem } from '../../Accordion';
 import { SkipToContentLink } from '../../SkipLink';
+import { AlertHeading } from 'react-bootstrap';
 
 
 function IndustryRequirements() {
@@ -31,23 +34,36 @@ function IndustryRequirements() {
               <h1>Requirements Discovery</h1>
               </Col>
             </Row>
-            <br/><br/>
-            <Row className="justify-content-md-center">
-              <Col xs="auto" className='text-center'>
-                <Image width="70%" src={`${process.env.PUBLIC_URL}/img/project.png`} alt=""></Image>
-              </Col>
-            </Row>
             <br/>
-            <Accordion defaultActiveKeys={["0", "1", "2", "3"]} allKeys={["0", "1", "2", "3"]}>
-              <AccordionItem index={0} header={"Objectives"}>
-                <p id="accordion-content">
-                  The <strong>Canadian Institute for Health Information</strong> (CIHI) needed to...
+            <Row>
+              <Col>
+                <h2>Users need...</h2>
+                <p id="hero-text">
+                  data about their clinic so that they can gauge their performance and guide future programs.  
                 </p>
-                  <ol id="accordion-content">
-                    <li>Determine how major changes to current offerings should accommodate both organizational mandates and user needs</li>
-                    <li>Develop wireframes of the future tool directions to inform initiative planning</li>
-                  </ol>
-              </AccordionItem>
+                <Badge bg='secondary'>The Canadian Institute for Health Information (CIHI)</Badge>
+                <br/><br/>
+                <Alert variant='warning'>
+                  <AlertHeading><h2>Research Impact</h2></AlertHeading>
+                  <ul id="accordion-content">
+                    <li>User-focused recommendations for driving faster access to critical website information</li>
+                    <li>Enhanced stakeholder alignment on organizational goals</li>
+                  </ul>
+                </Alert>
+                <div className='text-center'>
+                  <Image width="25%" src={`${process.env.PUBLIC_URL}/img/project.png`} className='text-center'/>
+                </div>
+                  
+              </Col>
+              <Col>
+              <Accordion defaultActiveKeys={["0","1","2"]} allKeys={["0", "1", "2"]}>
+              <AccordionItem index={0} header={"Problem"}>
+                <p id="accordion-content">
+                  Users struggle to <strong>consolidate</strong> data about their clinic on the CIHI website.
+                  <br/><br/>
+                  Wrangling this data is not straightforward. Data is split among different departments at the organization. Each department has unique processes in managing and publishing their data.
+                </p>                  
+                </AccordionItem>
               <AccordionItem index={1} header={"Tools"}>
                 <ul id="accordion-content">
                   <li>Mural</li>
@@ -90,15 +106,9 @@ function IndustryRequirements() {
                     <li>Supported leadership in evaluating how to accommodate users while meeting organizational goals</li>
                   </ul>
               </AccordionItem>
-              <AccordionItem index={3} header={"Impact"}>
-                  <ul id="accordion-content">
-                    <li>A deeper understanding of the intersection between business needs and user needs</li>
-                    <li>Validated and comprehensive visionary documents for aligning internal stakeholders and communicating future initiatives to external stakeholders</li>
-                    <li>Empirically-based evaluations of current offerings</li>
-                    <li>Data-driven recommendations for future offerings</li>
-                  </ul>
-              </AccordionItem>
             </Accordion>
+            </Col>
+            </Row>
           </Container>
       </section>
       <Footer/>
